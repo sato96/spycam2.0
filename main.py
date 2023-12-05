@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import logging
 
 
-##todo -> uniformare i response gli errori per tutti i ws disponibili, bisogna iniziare a essere formale 17/10/2023 - Fatto
+##uniformare i response gli errori per tutti i ws disponibili, bisogna iniziare a essere formale 17/10/2023 - Fatto
 ##gestire in oggetti diversi la connessione al db e gli utenti (anche se è da vedere)
 ##17/10/2023 - fare classi intere per gestire le cose (esempio una classe che gestisca il servizio, una per il db etc)
 
