@@ -20,7 +20,7 @@ class spycam(object):
 		#vanno gestiti e caricati i parametri di luminosità etc
 		self._fileName = fileConfig
 		self.realodConfig()
-		logging.basicConfig(filename=self._logPath, level=logging.DEBUG, 
+		logging.basicConfig(filename=self._logPath, level=logging.ERROR,
 					format='%(asctime)s %(levelname)s %(name)s %(message)s')
 		self._logger=logging.getLogger(__name__)
 		self._picam2 = None

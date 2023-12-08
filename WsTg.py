@@ -30,7 +30,7 @@ def makeResponse(status, response, code):
 
 
 
-logging.basicConfig(filename='tmp/wsTelegram.log', level=logging.DEBUG, 
+logging.basicConfig(filename='tmp/wsTelegram.log', level=logging.ERROR,
 					format='%(asctime)s %(levelname)s %(name)s %(message)s')
 logger=logging.getLogger(__name__)
 with open('ConfigTelegram.json', "r") as file:

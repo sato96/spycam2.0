@@ -9,7 +9,7 @@ import threading
 
 logging.basicConfig(filename='tmp/botTelegram.log',
 	format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-	level=logging.INFO
+	level=logging.ERROR
 )
 logger=logging.getLogger(__name__)
 

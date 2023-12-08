@@ -136,7 +136,7 @@ def makeResponse(status, response, code):
 	return myResponse
 
 
-logging.basicConfig(filename='tmp/mainApp.log', level=logging.DEBUG, 
+logging.basicConfig(filename='tmp/mainApp.log', level=logging.ERROR,
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
 logger=logging.getLogger(__name__)
 app = Flask('Main')

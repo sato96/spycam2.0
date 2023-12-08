@@ -30,7 +30,7 @@ def makeImageResponse(file):
 
 
 
-logging.basicConfig(filename='tmp/wsPicamera.log', level=logging.DEBUG, 
+logging.basicConfig(filename='tmp/wsPicamera.log', level=logging.ERROR,
 					format='%(asctime)s %(levelname)s %(name)s %(message)s')
 logger=logging.getLogger(__name__)
 app = Flask('Cam')

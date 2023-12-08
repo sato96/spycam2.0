@@ -2,6 +2,7 @@ from flask import Flask, make_response, request
 from flask_cors import cross_origin
 from motor import MotorStep
 import json
+import logging
 
 def shutdown_server():
 	func = request.environ.get('werkzeug.server.shutdown')
@@ -15,6 +16,10 @@ def makeResponse(status, response, code):
 	myResponse.status_code = code
 	return myResponse
 
+
+logging.basicConfig(filename='tmp/wsMotor.log', level=logging.ERROR,
+                    format='%(asctime)s %(levelname)s %(name)s %(message)s')
+logger=logging.getLogger(__name__)
 app = Flask('Motor')
 motor = MotorStep([24,25,8,7], "MotorConfig.json")
 
@@ -38,11 +43,11 @@ def Steps():
 		#gestire quanti gradi reali ho fatto al limite
 		resp = str(resp)
 		status = 'ok'
-		print(resp)
+
 	except Exception as e:
-		print(e)
+		logger.error(e)
 		code = 500
-		resp = 'Error ' + str(e) 
+		resp = 'Error ' + str(e)
 		status = 'ko'
 	return makeResponse(status, resp, code)
 
@@ -54,8 +59,8 @@ def GetDeg():
 		status = 'ok'
 		code = 200
 	except Exception as e:
+		logger.error(e)
 		resp = 'Error'
-		print(e)
 		status = 'ko'
 		code = 500
 	return makeResponse(status, resp, code)
@@ -69,9 +74,10 @@ def ToZero():
 		status = 'ok'
 		code = 200
 	except Exception as e:
+		logger.error(e)
 		code = 500
 		resp = 'Error'
-		status = 'ko' 
+		status = 'ko'
 	return makeResponse(status, resp, code)
 
 @app.route('/setzero', methods = ['POST'])
@@ -83,9 +89,10 @@ def SetZero():
 		status = 'ok'
 		code = 200
 	except Exception as e:
+		logger.error(e)
 		code = 500
 		resp = 'Error'
-		status = 'ko' 
+		status = 'ko'
 	return makeResponse(status, resp, code)
 
 @app.route('/setlimits', methods = ['POST'])
@@ -95,8 +102,6 @@ def SetLimits():
 		body = request.data
 		dati = json.loads(body.decode('utf-8'))
 		limits = dati['limits']
-		#modificare che se manca uno dei due limiti si tiene il precedente
-		print(limits)
 		ans = motor.SetLimits(int(limits['right']), int(limits['left']))
 		if ans == True:
 			resp = 'ok'
@@ -107,9 +112,10 @@ def SetLimits():
 			status = 'ko'
 			code = 422
 	except Exception as e:
+		logger.error(e)
 		code = 500
 		resp = 'Error'
-		status = 'ko' 
+		status = 'ko'
 	return makeResponse(status, resp, code)
 
 @app.route('/setrightlimits', methods = ['POST'])
@@ -129,10 +135,10 @@ def SetRightLimit():
 			status = 'ko'
 			code = 422
 	except Exception as e:
+		logger.error(e)
 		code = 500
 		resp = 'Error'
-		status = 'ko' 
-		print(e)
+		status = 'ko'
 	return makeResponse(status, resp, code)
 
 @app.route('/setleftlimits', methods = ['POST'])
@@ -154,21 +160,21 @@ def SetLeftLimit():
 	except Exception as e:
 		code = 500
 		resp = 'Error'
-		status = 'ko' 
+		status = 'ko'
+		logger.error(e)
 	return makeResponse(status, resp, code)
 
 @app.route('/getlimits', methods = ['GET'])
 def GetLimits():
 	try:
 		r = motor.GetLimits()
-		print(r)
+		logger.error(str(r))
 		resp = r
-		print(resp)
 		status = 'ok'
 		code = 200
 	except Exception as e:
 		resp = 'Error'
-		print(e)
+		logger.error(e)
 		status = 'ko'
 		code = 500
 	return makeResponse(status, resp, code)
@@ -181,7 +187,7 @@ def DelLimits():
 		code = 200
 	except Exception as e:
 		resp = 'Error'
-		print(e)
+		logger.error(e)
 		status = 'ko'
 		code = 500
 	return makeResponse(status, resp, code)
@@ -199,7 +205,8 @@ def Stop():
 	except Exception as e:
 		code = 500
 		resp = 'Error'
-		status = 'ko' 
+		status = 'ko'
+		logger.error(e)
 	return makeResponse(status, resp, code)
 if __name__ == '__main__':
 	service_code = 'MotorStep'
