@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-python3 main.py &
-python3 WsTg.py &
-python3 TgBot.py &
-python3 WsCam.py &
-#python3 WsMotor.py &
+#launcher script
+python3 App/main.py &
+python3 Telegram/WsTg.py &
+python3 Telegram/TgBot.py &
+python3 Camera/WsCam.py &
+python3 Motor/WsMotor.py &

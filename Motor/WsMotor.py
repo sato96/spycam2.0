@@ -1,6 +1,5 @@
 from flask import Flask, make_response, request
-from flask_cors import cross_origin
-from motor import MotorStep
+from Motor.motor import MotorStep
 import json
 import logging
 
