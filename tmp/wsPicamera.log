@@ -1,0 +1,124 @@
+2024-01-28 14:49:54,881 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.23:5004
+2024-01-28 14:49:54,881 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-01-28 14:49:54,884 INFO werkzeug  * Restarting with stat
+2024-01-28 14:49:56,427 WARNING werkzeug  * Debugger is active!
+2024-01-28 14:49:56,440 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-01-28 14:50:33,073 INFO werkzeug 127.0.0.1 - - [28/Jan/2024 14:50:33] "GET /pic HTTP/1.1" 200 -
+2024-01-28 15:23:14,737 INFO werkzeug 127.0.0.1 - - [28/Jan/2024 15:23:14] "POST /start HTTP/1.1" 200 -
+2024-01-28 23:12:55,244 INFO werkzeug 127.0.0.1 - - [28/Jan/2024 23:12:55] "POST /stop HTTP/1.1" 200 -
+2024-02-02 17:11:55,973 INFO werkzeug 127.0.0.1 - - [02/Feb/2024 17:11:55] "POST /start HTTP/1.1" 200 -
+2024-02-02 17:12:00,267 INFO werkzeug 127.0.0.1 - - [02/Feb/2024 17:12:00] "GET /pic HTTP/1.1" 200 -
+2024-02-02 22:28:58,040 INFO werkzeug 127.0.0.1 - - [02/Feb/2024 22:28:58] "POST /stop HTTP/1.1" 200 -
+2024-02-08 00:17:11,906 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.23:5004
+2024-02-08 00:17:11,907 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-08 00:17:11,910 INFO werkzeug  * Restarting with stat
+2024-02-08 00:17:13,426 WARNING werkzeug  * Debugger is active!
+2024-02-08 00:17:13,427 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-08 00:17:49,331 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 00:17:49] "GET /pic HTTP/1.1" 200 -
+2024-02-08 00:24:21,758 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 00:24:21] "GET /pic HTTP/1.1" 200 -
+2024-02-08 00:24:32,109 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 00:24:32] "POST /start HTTP/1.1" 200 -
+2024-02-08 00:25:08,221 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 00:25:08] "GET /pic HTTP/1.1" 200 -
+2024-02-08 00:25:15,800 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 00:25:15] "POST /stop HTTP/1.1" 200 -
+2024-02-09 10:50:27,706 INFO werkzeug 127.0.0.1 - - [09/Feb/2024 10:50:27] "GET /pic HTTP/1.1" 200 -
+2024-02-09 10:50:40,739 INFO werkzeug 127.0.0.1 - - [09/Feb/2024 10:50:40] "GET /pic HTTP/1.1" 200 -
+2024-02-10 16:29:27,907 INFO werkzeug 127.0.0.1 - - [10/Feb/2024 16:29:27] "POST /start HTTP/1.1" 200 -
+2024-02-10 20:37:33,192 INFO werkzeug 127.0.0.1 - - [10/Feb/2024 20:37:33] "GET /pic HTTP/1.1" 200 -
+2024-02-11 23:37:09,261 INFO werkzeug 127.0.0.1 - - [11/Feb/2024 23:37:09] "POST /stop HTTP/1.1" 200 -
+2024-02-12 23:47:20,419 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.17:5004
+2024-02-12 23:47:20,420 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-12 23:47:20,423 INFO werkzeug  * Restarting with stat
+2024-02-12 23:47:21,881 WARNING werkzeug  * Debugger is active!
+2024-02-12 23:47:21,882 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-02-14 09:46:32,076 INFO werkzeug 127.0.0.1 - - [14/Feb/2024 09:46:32] "GET /pic HTTP/1.1" 200 -
+2024-02-15 19:40:03,437 INFO werkzeug 127.0.0.1 - - [15/Feb/2024 19:40:03] "POST /start HTTP/1.1" 200 -
+2024-02-15 19:40:09,515 INFO werkzeug 127.0.0.1 - - [15/Feb/2024 19:40:09] "GET /pic HTTP/1.1" 200 -
+2024-02-16 17:00:37,353 INFO werkzeug 127.0.0.1 - - [16/Feb/2024 17:00:37] "GET /pic HTTP/1.1" 200 -
+2024-02-17 11:30:32,872 INFO werkzeug 127.0.0.1 - - [17/Feb/2024 11:30:32] "GET /pic HTTP/1.1" 200 -
+2024-02-18 21:14:50,522 INFO werkzeug 127.0.0.1 - - [18/Feb/2024 21:14:50] "POST /stop HTTP/1.1" 200 -
+2024-02-20 01:21:49,520 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 01:21:49] "GET /pic HTTP/1.1" 200 -
+2024-02-20 16:22:08,701 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 16:22:08] "POST /start HTTP/1.1" 200 -
+2024-02-20 16:22:12,891 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 16:22:12] "GET /pic HTTP/1.1" 200 -
+2024-02-20 17:58:19,515 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 17:58:19] "POST /stop HTTP/1.1" 200 -
+2024-02-20 20:49:25,840 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 20:49:25] "GET /pic HTTP/1.1" 200 -
+2024-02-20 23:21:26,343 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-20 23:21:26,344 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-20 23:21:26,347 INFO werkzeug  * Restarting with stat
+2024-02-20 23:21:27,786 WARNING werkzeug  * Debugger is active!
+2024-02-20 23:21:27,787 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-20 23:44:28,402 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-20 23:44:28,403 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-20 23:44:28,406 INFO werkzeug  * Restarting with stat
+2024-02-20 23:44:29,859 WARNING werkzeug  * Debugger is active!
+2024-02-20 23:44:29,860 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-20 23:47:39,965 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-20 23:47:39,973 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-20 23:47:39,976 INFO werkzeug  * Restarting with stat
+2024-02-20 23:47:41,420 WARNING werkzeug  * Debugger is active!
+2024-02-20 23:47:41,421 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-21 00:03:25,633 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-21 00:03:25,635 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-21 00:03:25,637 INFO werkzeug  * Restarting with stat
+2024-02-21 00:03:27,073 WARNING werkzeug  * Debugger is active!
+2024-02-21 00:03:27,074 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-21 00:10:25,802 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-21 00:10:25,803 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-21 00:10:25,806 INFO werkzeug  * Restarting with stat
+2024-02-21 00:10:27,243 WARNING werkzeug  * Debugger is active!
+2024-02-21 00:10:27,244 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-21 23:29:57,891 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-21 23:29:57,893 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-21 23:29:57,895 INFO werkzeug  * Restarting with stat
+2024-02-21 23:29:59,352 WARNING werkzeug  * Debugger is active!
+2024-02-21 23:29:59,353 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-21 23:31:07,442 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:31:07] "GET /pic HTTP/1.1" 200 -
+2024-02-21 23:31:30,119 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:31:30] "GET /pic HTTP/1.1" 200 -
+2024-02-21 23:43:30,204 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:43:30] "GET /pic HTTP/1.1" 200 -
+2024-02-21 23:43:39,963 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:43:39] "GET /pic HTTP/1.1" 200 -
+2024-02-21 23:44:33,124 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:44:33] "GET /pic HTTP/1.1" 200 -
+2024-02-22 00:37:07,721 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 00:37:07] "GET /pic HTTP/1.1" 200 -
+2024-02-22 00:53:42,128 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 00:53:42] "POST /start HTTP/1.1" 200 -
+2024-02-22 00:54:42,698 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 00:54:42] "GET /pic HTTP/1.1" 200 -
+2024-02-22 06:04:55,833 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 06:04:55] "POST /stop HTTP/1.1" 200 -
+2024-02-22 08:47:57,041 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 08:47:57] "POST /start HTTP/1.1" 200 -
+2024-02-22 08:48:02,166 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 08:48:02] "GET /pic HTTP/1.1" 200 -
+2024-02-22 17:04:03,222 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 17:04:03] "GET /pic HTTP/1.1" 200 -
+2024-02-23 00:01:26,142 INFO werkzeug 127.0.0.1 - - [23/Feb/2024 00:01:26] "GET /pic HTTP/1.1" 200 -
+2024-02-23 19:05:19,045 INFO werkzeug 127.0.0.1 - - [23/Feb/2024 19:05:19] "POST /stop HTTP/1.1" 200 -
+2024-02-24 21:34:09,491 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:34:09] "GET /pic HTTP/1.1" 200 -
+2024-02-24 21:34:35,639 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:34:35] "POST /start HTTP/1.1" 200 -
+2024-02-24 21:34:52,346 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:34:52] "POST /stop HTTP/1.1" 200 -
+2024-02-24 21:34:59,067 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:34:59] "GET /pic HTTP/1.1" 200 -
+2024-02-24 21:35:52,319 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:35:52] "POST /start HTTP/1.1" 200 -
+2024-02-24 21:36:50,196 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:36:50] "POST /stop HTTP/1.1" 200 -
+2024-02-24 21:43:05,636 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:43:05] "GET /pic HTTP/1.1" 200 -
+2024-02-24 21:43:11,749 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:43:11] "POST /start HTTP/1.1" 200 -
+2024-02-24 21:44:05,341 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:44:05] "POST /stop HTTP/1.1" 200 -
+2024-02-24 21:51:16,867 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:16] "POST /start HTTP/1.1" 200 -
+2024-02-24 21:51:39,302 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:39] "POST /stop HTTP/1.1" 200 -

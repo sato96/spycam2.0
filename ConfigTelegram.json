@@ -3,7 +3,7 @@
 	"token":"1747072933:AAH1jSXnFNSFMdCLZy-Fpktm7qb2hYbPE-I",
 	"full":["setzero", "vaiazero", "start", "stop", "foto"],
 	"parz":["ruota","impostalimite","soglia","setlimiti", "setlimitesx", "setlimitedx", "comunicazioni"],
-	"get": ["gradi", "servizi", "getlimiti", "admin","parametrisistema"],
+	"get": ["gradi", "servizi", "getlimiti", "admin", "parametrisistema"],
 	"delete":["resetlimiti"],
 	"avvio": "avvio",
 	"service_code": "tgBot"

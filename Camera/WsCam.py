@@ -1,5 +1,5 @@
 from flask import Flask, make_response, request, Response
-from Camera.CameraModule import spycam
+from CameraModule import spycam
 import json
 import threading
 from io import BytesIO

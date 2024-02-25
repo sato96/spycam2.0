@@ -1,0 +1,375 @@
+2023-12-07 23:32:35,771 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:32:35,772 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-07 23:33:52,288 INFO werkzeug  * Detected change in '/home/pi/spycam/WsMotor.py', reloading
+2023-12-07 23:33:53,573 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:33:53,574 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-07 23:34:11,193 INFO werkzeug  * Detected change in '/home/pi/spycam/WsTg.py', reloading
+2023-12-07 23:34:12,405 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:34:12,406 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-07 23:34:24,843 INFO werkzeug  * Detected change in '/home/pi/spycam/WsCam.py', reloading
+2023-12-07 23:34:26,163 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:34:26,165 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-07 23:34:37,578 INFO werkzeug  * Detected change in '/home/pi/spycam/CameraModule.py', reloading
+2023-12-07 23:34:38,675 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:34:38,676 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-07 23:34:50,077 INFO werkzeug  * Detected change in '/home/pi/spycam/TgBot.py', reloading
+2023-12-07 23:34:51,272 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:34:51,273 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-07 23:35:15,213 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:35:15] "GET /getdeg HTTP/1.1" 200 -
+2023-12-07 23:35:17,663 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:35:17] "GET /getlimits HTTP/1.1" 200 -
+2023-12-07 23:35:56,131 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:35:56] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:36:11,781 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:36:11] "POST /setzero HTTP/1.1" 200 -
+2023-12-07 23:36:23,795 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:36:23] "GET /getdeg HTTP/1.1" 200 -
+2023-12-07 23:36:48,061 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:36:48] "POST /tozero HTTP/1.1" 200 -
+2023-12-07 23:37:05,518 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:37:05] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:37:29,359 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:37:29] "POST /setlimits HTTP/1.1" 200 -
+2023-12-07 23:37:47,023 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:37:47] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:37:56,126 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:37:56] "POST /setzero HTTP/1.1" 200 -
+2023-12-07 23:38:08,776 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:38:08] "GET /getlimits HTTP/1.1" 200 -
+2023-12-07 23:38:27,132 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:38:27] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:38:48,008 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:38:48] "POST /tozero HTTP/1.1" 200 -
+2023-12-07 23:42:13,992 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:42:13] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:42:35,805 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:42:35] "POST /tozero HTTP/1.1" 200 -
+2023-12-07 23:42:55,668 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:42:55] "GET /getdeg HTTP/1.1" 200 -
+2023-12-07 23:48:49,801 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:48:49] "POST /tozero HTTP/1.1" 200 -
+2023-12-07 23:48:56,897 ERROR __main__ [Errno 5] Input/output error
+2023-12-07 23:48:56,898 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:48:56] "[35m[1mGET /getlimits HTTP/1.1[0m" 500 -
+2023-12-07 23:49:24,248 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:49:24] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:49:28,653 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:49:28] "POST /tozero HTTP/1.1" 200 -
+2023-12-07 23:49:41,191 ERROR __main__ [Errno 5] Input/output error
+2023-12-07 23:49:41,191 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:49:41] "[35m[1mGET /getlimits HTTP/1.1[0m" 500 -
+2023-12-07 23:51:19,421 INFO werkzeug  * Detected change in '/home/pi/spycam/WsMotor.py', reloading
+2023-12-07 23:56:43,127 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-07 23:56:43,127 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-07 23:56:43,137 INFO werkzeug  * Restarting with stat
+2023-12-07 23:56:44,168 WARNING werkzeug  * Debugger is active!
+2023-12-07 23:56:44,170 INFO werkzeug  * Debugger PIN: 163-108-636
+2023-12-07 23:57:13,935 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:57:13] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:57:14,119 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:57:14] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:57:30,998 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:57:30] "POST /tozero HTTP/1.1" 200 -
+2023-12-07 23:57:36,304 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:57:36] "GET /getdeg HTTP/1.1" 200 -
+2023-12-07 23:57:55,978 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:57:55] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:58:02,313 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:02] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:58:08,818 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:08] "POST /steps HTTP/1.1" 200 -
+2023-12-07 23:58:13,608 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:13] "POST /setzero HTTP/1.1" 200 -
+2023-12-07 23:58:23,715 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-07 23:58:23,716 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:23] "GET /getlimits HTTP/1.1" 200 -
+2023-12-07 23:58:41,636 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-07 23:58:41,637 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:41] "GET /getlimits HTTP/1.1" 200 -
+2023-12-07 23:58:42,145 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-07 23:58:42,146 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:42] "GET /getlimits HTTP/1.1" 200 -
+2023-12-07 23:58:45,483 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-07 23:58:45,484 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:58:45] "GET /getlimits HTTP/1.1" 200 -
+2023-12-07 23:59:50,680 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-07 23:59:50,680 INFO werkzeug 127.0.0.1 - - [07/Dec/2023 23:59:50] "GET /getlimits HTTP/1.1" 200 -
+2023-12-08 00:00:08,431 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:00:08] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:00:08,740 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:00:08] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:02:13,442 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-08 00:02:13,445 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-08 00:02:13,464 INFO werkzeug  * Restarting with stat
+2023-12-08 00:02:14,511 WARNING werkzeug  * Debugger is active!
+2023-12-08 00:02:14,513 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-08 00:02:41,124 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:02:41] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:03:13,698 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-08 00:03:13,699 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:03:13] "GET /getlimits HTTP/1.1" 200 -
+2023-12-08 00:03:17,397 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:03:17] "GET /getdeg HTTP/1.1" 200 -
+2023-12-08 00:03:54,234 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:03:54] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 00:04:05,541 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:04:05] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:04:19,028 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:04:19] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:15:26,752 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:15:26] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 00:29:31,184 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:29:31] "GET /getdeg HTTP/1.1" 200 -
+2023-12-08 00:30:05,494 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:30:05] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:30:36,529 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:30:36] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:31:12,586 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:31:12] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:31:27,881 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:31:27] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:31:41,360 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:31:41] "GET /getdeg HTTP/1.1" 200 -
+2023-12-08 00:31:53,791 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:31:53] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 00:32:20,168 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:32:20] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:32:36,965 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:32:36] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:32:50,350 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:32:50] "POST /steps HTTP/1.1" 200 -
+2023-12-08 00:33:33,285 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 00:33:33] "GET /getdeg HTTP/1.1" 200 -
+2023-12-08 08:07:06,045 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:07:06] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 08:07:22,629 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-08 08:07:22,630 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:07:22] "GET /getlimits HTTP/1.1" 200 -
+2023-12-08 08:07:45,196 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:07:45] "POST /steps HTTP/1.1" 200 -
+2023-12-08 08:08:14,696 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:08:14] "POST /steps HTTP/1.1" 200 -
+2023-12-08 08:08:36,607 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:08:36] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 08:42:47,970 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:42:47] "POST /steps HTTP/1.1" 200 -
+2023-12-08 08:43:10,871 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:43:10] "POST /steps HTTP/1.1" 200 -
+2023-12-08 08:43:31,615 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:43:31] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 08:45:20,171 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-08 08:45:20,172 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 08:45:20] "GET /getlimits HTTP/1.1" 200 -
+2023-12-08 10:01:01,327 INFO werkzeug  * Detected change in '/home/pi/spycam/WsTg.py', reloading
+2023-12-08 10:01:01,650 INFO werkzeug  * Restarting with stat
+2023-12-08 10:01:02,667 WARNING werkzeug  * Debugger is active!
+2023-12-08 10:01:02,668 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-08 10:34:42,619 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:34:42] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:35:10,295 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:35:10] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:35:34,571 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-08 10:35:34,572 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:35:34] "GET /getlimits HTTP/1.1" 200 -
+2023-12-08 10:35:58,675 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:35:58] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:36:28,244 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:36:28] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:38:32,137 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:38:32] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 10:38:54,189 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:38:54] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:39:03,865 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:39:03] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:39:22,219 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:39:22] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:39:34,573 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:39:34] "POST /steps HTTP/1.1" 200 -
+2023-12-08 10:40:04,215 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:40:04] "GET /getdeg HTTP/1.1" 200 -
+2023-12-08 10:40:13,245 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 10:40:13] "POST /setzero HTTP/1.1" 200 -
+2023-12-08 11:02:01,759 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-08 11:02:01,760 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:02:01] "GET /getlimits HTTP/1.1" 200 -
+2023-12-08 11:03:30,796 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:03:30] "POST /steps HTTP/1.1" 200 -
+2023-12-08 11:03:48,624 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:03:48] "POST /steps HTTP/1.1" 200 -
+2023-12-08 11:03:59,307 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:03:59] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 11:04:10,959 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:04:10] "POST /steps HTTP/1.1" 200 -
+2023-12-08 11:04:21,342 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:04:21] "POST /steps HTTP/1.1" 200 -
+2023-12-08 11:04:34,463 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:04:34] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 11:04:47,104 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:04:47] "POST /steps HTTP/1.1" 200 -
+2023-12-08 11:04:53,063 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 11:04:53] "POST /setzero HTTP/1.1" 200 -
+2023-12-08 14:01:09,239 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 14:01:09] "POST /steps HTTP/1.1" 200 -
+2023-12-08 14:01:15,355 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 14:01:15] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 14:01:24,196 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 14:01:24] "POST /steps HTTP/1.1" 200 -
+2023-12-08 14:04:36,666 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 14:04:36] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 22:16:19,000 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 22:16:19] "POST /steps HTTP/1.1" 200 -
+2023-12-08 22:16:42,548 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 22:16:42] "POST /tozero HTTP/1.1" 200 -
+2023-12-08 22:39:40,383 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-08 22:39:40,383 INFO werkzeug 127.0.0.1 - - [08/Dec/2023 22:39:40] "GET /getlimits HTTP/1.1" 200 -
+2023-12-09 10:05:51,954 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 10:05:51] "POST /steps HTTP/1.1" 200 -
+2023-12-09 10:06:55,596 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 10:06:55] "POST /steps HTTP/1.1" 200 -
+2023-12-09 10:07:46,594 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 10:07:46] "POST /tozero HTTP/1.1" 200 -
+2023-12-09 10:08:47,109 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 10:08:47] "POST /steps HTTP/1.1" 200 -
+2023-12-09 10:09:01,327 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 10:09:01] "POST /setzero HTTP/1.1" 200 -
+2023-12-09 20:23:22,876 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 20:23:22] "POST /steps HTTP/1.1" 200 -
+2023-12-09 20:24:01,947 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 20:24:01] "POST /steps HTTP/1.1" 200 -
+2023-12-09 20:24:59,379 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 20:24:59] "POST /steps HTTP/1.1" 200 -
+2023-12-09 20:25:33,239 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 20:25:33] "GET /getdeg HTTP/1.1" 200 -
+2023-12-09 20:25:42,087 INFO werkzeug 127.0.0.1 - - [09/Dec/2023 20:25:42] "POST /tozero HTTP/1.1" 200 -
+2023-12-21 22:36:28,512 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-21 22:36:28,514 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-21 22:36:28,525 INFO werkzeug  * Restarting with stat
+2023-12-21 22:36:29,284 WARNING werkzeug  * Debugger is active!
+2023-12-21 22:36:29,285 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-21 22:39:46,524 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-21 22:39:46,525 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-21 22:39:46,538 INFO werkzeug  * Restarting with stat
+2023-12-21 22:39:47,268 WARNING werkzeug  * Debugger is active!
+2023-12-21 22:39:47,269 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-21 22:41:15,744 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-21 22:41:15,746 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:41:15] "GET /getlimits HTTP/1.1" 200 -
+2023-12-21 22:41:40,280 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:41:40] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:41:52,915 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:41:52] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:41:59,433 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:41:59] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:42:15,382 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:42:15] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:42:21,304 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:42:21] "GET /getdeg HTTP/1.1" 200 -
+2023-12-21 22:57:09,516 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:57:09] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:57:24,516 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:57:24] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:57:36,215 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:57:36] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:57:52,342 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:57:52] "POST /steps HTTP/1.1" 200 -
+2023-12-21 22:58:09,941 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:58:09] "GET /getdeg HTTP/1.1" 200 -
+2023-12-21 22:58:19,369 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 22:58:19] "POST /tozero HTTP/1.1" 200 -
+2023-12-21 23:14:19,833 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-21 23:14:19,839 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-21 23:14:19,853 INFO werkzeug  * Restarting with stat
+2023-12-21 23:14:20,575 WARNING werkzeug  * Debugger is active!
+2023-12-21 23:14:20,576 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-21 23:25:36,766 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 23:25:36] "GET /getdeg HTTP/1.1" 200 -
+2023-12-21 23:59:13,560 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 23:59:13] "POST /steps HTTP/1.1" 200 -
+2023-12-21 23:59:28,162 INFO werkzeug 127.0.0.1 - - [21/Dec/2023 23:59:28] "POST /steps HTTP/1.1" 200 -
+2023-12-22 16:43:02,381 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 16:43:02] "POST /steps HTTP/1.1" 200 -
+2023-12-22 16:43:24,087 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 16:43:24] "POST /steps HTTP/1.1" 200 -
+2023-12-22 16:43:35,546 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 16:43:35] "POST /steps HTTP/1.1" 200 -
+2023-12-22 16:43:56,334 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 16:43:56] "POST /steps HTTP/1.1" 200 -
+2023-12-22 16:44:43,416 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 16:44:43] "POST /steps HTTP/1.1" 200 -
+2023-12-22 16:44:51,408 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 16:44:51] "GET /getdeg HTTP/1.1" 200 -
+2023-12-22 18:11:32,803 ERROR __main__ {'right': 90, 'left': -90}
+2023-12-22 18:11:32,803 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 18:11:32] "GET /getlimits HTTP/1.1" 200 -
+2023-12-22 20:30:05,762 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:30:05] "GET /getdeg HTTP/1.1" 200 -
+2023-12-22 20:30:27,425 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:30:27] "POST /setleftlimits HTTP/1.1" 200 -
+2023-12-22 20:30:47,135 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:30:47] "POST /setrightlimits HTTP/1.1" 200 -
+2023-12-22 20:31:11,371 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:31:11] "POST /steps HTTP/1.1" 200 -
+2023-12-22 20:31:41,844 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:31:41] "POST /steps HTTP/1.1" 200 -
+2023-12-22 20:31:58,519 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:31:58] "POST /tozero HTTP/1.1" 200 -
+2023-12-22 20:32:18,734 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:32:18] "POST /steps HTTP/1.1" 200 -
+2023-12-22 20:32:38,509 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:32:38] "POST /steps HTTP/1.1" 200 -
+2023-12-22 20:33:50,461 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:33:50] "POST /setrightlimits HTTP/1.1" 200 -
+2023-12-22 20:34:05,277 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:34:05] "POST /setleftlimits HTTP/1.1" 200 -
+2023-12-22 20:34:21,003 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 20:34:21] "POST /steps HTTP/1.1" 200 -
+2023-12-22 21:03:22,452 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 21:03:22] "GET /getdeg HTTP/1.1" 200 -
+2023-12-22 21:26:31,537 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 21:26:31] "GET /getdeg HTTP/1.1" 200 -
+2023-12-22 21:39:49,751 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-22 21:39:49,752 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-22 21:39:49,761 INFO werkzeug  * Restarting with stat
+2023-12-22 21:39:50,470 WARNING werkzeug  * Debugger is active!
+2023-12-22 21:39:50,472 INFO werkzeug  * Debugger PIN: 105-867-221
+2023-12-22 21:46:43,624 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-22 21:46:43,628 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-22 21:46:43,639 INFO werkzeug  * Restarting with stat
+2023-12-22 21:46:44,379 WARNING werkzeug  * Debugger is active!
+2023-12-22 21:46:44,380 INFO werkzeug  * Debugger PIN: 974-916-177
+2023-12-22 21:46:47,437 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 21:46:47] "GET /getdeg HTTP/1.1" 200 -
+2023-12-22 21:58:53,784 INFO werkzeug 127.0.0.1 - - [22/Dec/2023 21:58:53] "POST /steps HTTP/1.1" 200 -
+2023-12-23 00:16:39,558 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-23 00:16:39,564 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-23 00:16:39,575 INFO werkzeug  * Restarting with stat
+2023-12-23 00:16:40,234 WARNING werkzeug  * Debugger is active!
+2023-12-23 00:16:40,235 INFO werkzeug  * Debugger PIN: 822-171-296
+2023-12-23 00:16:57,889 INFO werkzeug 127.0.0.1 - - [23/Dec/2023 00:16:57] "GET /getdeg HTTP/1.1" 200 -
+2023-12-23 00:17:11,380 INFO werkzeug 127.0.0.1 - - [23/Dec/2023 00:17:11] "POST /steps HTTP/1.1" 200 -
+2023-12-24 21:56:06,218 INFO werkzeug 127.0.0.1 - - [24/Dec/2023 21:56:06] "POST /setzero HTTP/1.1" 200 -
+2023-12-24 21:56:22,420 INFO werkzeug 127.0.0.1 - - [24/Dec/2023 21:56:22] "POST /steps HTTP/1.1" 200 -
+2023-12-24 21:56:40,659 INFO werkzeug 127.0.0.1 - - [24/Dec/2023 21:56:40] "POST /setzero HTTP/1.1" 200 -
+2023-12-24 21:56:52,534 INFO werkzeug 127.0.0.1 - - [24/Dec/2023 21:56:52] "POST /steps HTTP/1.1" 200 -
+2023-12-24 21:57:15,255 INFO werkzeug 127.0.0.1 - - [24/Dec/2023 21:57:15] "POST /steps HTTP/1.1" 200 -
+2023-12-31 17:32:37,605 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2023-12-31 17:32:39,972 INFO werkzeug [33mPress CTRL+C to quit[0m
+2023-12-31 17:32:39,988 INFO werkzeug  * Restarting with stat
+2023-12-31 17:32:42,459 WARNING werkzeug  * Debugger is active!
+2023-12-31 17:32:42,460 INFO werkzeug  * Debugger PIN: 974-916-177
+2023-12-31 17:33:10,952 INFO werkzeug 127.0.0.1 - - [31/Dec/2023 17:33:10] "POST /steps HTTP/1.1" 200 -
+2023-12-31 17:33:25,571 INFO werkzeug 127.0.0.1 - - [31/Dec/2023 17:33:25] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:00:21,907 ERROR __main__ {'right': 160, 'left': -160}
+2024-01-21 01:00:21,908 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:00:21] "GET /getlimits HTTP/1.1" 200 -
+2024-01-21 01:00:28,746 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:00:28] "GET /getdeg HTTP/1.1" 200 -
+2024-01-21 01:00:54,796 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:00:54] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:01:32,489 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:01:32] "GET /getdeg HTTP/1.1" 200 -
+2024-01-21 01:01:43,938 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:01:43] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:08:22,486 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:08:22] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:08:38,572 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:08:38] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:09:12,068 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:09:12] "GET /getdeg HTTP/1.1" 200 -
+2024-01-21 01:09:23,963 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:09:23] "POST /tozero HTTP/1.1" 200 -
+2024-01-21 01:10:00,696 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:10:00] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:10:25,902 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:10:25] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:10:56,825 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:10:56] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:11:10,121 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:11:10] "POST /steps HTTP/1.1" 200 -
+2024-01-21 01:11:20,357 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:11:20] "GET /getdeg HTTP/1.1" 200 -
+2024-01-21 01:12:19,162 INFO werkzeug 127.0.0.1 - - [21/Jan/2024 01:12:19] "POST /steps HTTP/1.1" 200 -
+2024-01-28 14:49:53,902 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2024-01-28 14:49:53,913 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-01-28 14:49:53,922 INFO werkzeug  * Restarting with stat
+2024-01-28 14:49:54,589 WARNING werkzeug  * Debugger is active!
+2024-01-28 14:49:54,590 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-01-28 14:50:25,575 INFO werkzeug 127.0.0.1 - - [28/Jan/2024 14:50:25] "POST /steps HTTP/1.1" 200 -
+2024-02-07 15:38:17,776 ERROR __main__ {'right': 160, 'left': -160}
+2024-02-07 15:38:17,777 INFO werkzeug 127.0.0.1 - - [07/Feb/2024 15:38:17] "GET /getlimits HTTP/1.1" 200 -
+2024-02-07 15:38:45,337 INFO werkzeug 127.0.0.1 - - [07/Feb/2024 15:38:45] "GET /getdeg HTTP/1.1" 200 -
+2024-02-08 00:17:11,374 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.23:5002
+2024-02-08 00:17:11,376 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-08 00:17:11,388 INFO werkzeug  * Restarting with stat
+2024-02-08 00:17:12,149 WARNING werkzeug  * Debugger is active!
+2024-02-08 00:17:12,150 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-08 00:17:41,379 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 00:17:41] "POST /steps HTTP/1.1" 200 -
+2024-02-08 11:16:52,235 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 11:16:52] "GET /getdeg HTTP/1.1" 200 -
+2024-02-08 11:17:09,234 ERROR __main__ {'right': 160, 'left': -160}
+2024-02-08 11:17:09,235 INFO werkzeug 127.0.0.1 - - [08/Feb/2024 11:17:09] "GET /getlimits HTTP/1.1" 200 -
+2024-02-09 10:50:04,888 INFO werkzeug 127.0.0.1 - - [09/Feb/2024 10:50:04] "POST /steps HTTP/1.1" 200 -
+2024-02-09 10:51:12,387 INFO werkzeug 127.0.0.1 - - [09/Feb/2024 10:51:12] "POST /steps HTTP/1.1" 200 -
+2024-02-09 10:51:20,976 INFO werkzeug 127.0.0.1 - - [09/Feb/2024 10:51:20] "GET /getdeg HTTP/1.1" 200 -
+2024-02-12 23:47:19,923 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.17:5002
+2024-02-12 23:47:19,928 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-12 23:47:19,936 INFO werkzeug  * Restarting with stat
+2024-02-12 23:47:20,571 WARNING werkzeug  * Debugger is active!
+2024-02-12 23:47:20,572 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-02-12 23:49:13,778 INFO werkzeug 127.0.0.1 - - [12/Feb/2024 23:49:13] "POST /steps HTTP/1.1" 200 -
+2024-02-20 23:21:25,820 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.29:5002
+2024-02-20 23:21:25,825 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-20 23:21:25,833 INFO werkzeug  * Restarting with stat
+2024-02-20 23:21:26,481 WARNING werkzeug  * Debugger is active!
+2024-02-20 23:21:26,482 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-20 23:44:25,102 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.29:5002
+2024-02-20 23:44:25,110 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-20 23:44:25,126 INFO werkzeug  * Restarting with stat
+2024-02-20 23:44:25,898 WARNING werkzeug  * Debugger is active!
+2024-02-20 23:44:25,900 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-20 23:47:36,959 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.29:5002
+2024-02-20 23:47:36,962 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-20 23:47:36,975 INFO werkzeug  * Restarting with stat
+2024-02-20 23:47:37,734 WARNING werkzeug  * Debugger is active!
+2024-02-20 23:47:37,736 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-20 23:51:59,142 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 23:51:59] "GET /getdeg HTTP/1.1" 200 -
+2024-02-20 23:58:54,887 INFO werkzeug 127.0.0.1 - - [20/Feb/2024 23:58:54] "GET /getdeg HTTP/1.1" 200 -
+2024-02-21 00:03:22,492 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.29:5002
+2024-02-21 00:03:22,497 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-21 00:03:22,510 INFO werkzeug  * Restarting with stat
+2024-02-21 00:03:23,260 WARNING werkzeug  * Debugger is active!
+2024-02-21 00:03:23,261 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-21 00:03:35,679 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 00:03:35] "GET /getdeg HTTP/1.1" 200 -
+2024-02-21 00:06:36,752 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 00:06:36] "GET /getdeg HTTP/1.1" 200 -
+2024-02-21 00:09:58,243 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.29:5002
+2024-02-21 00:09:58,247 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-21 00:09:58,262 INFO werkzeug  * Restarting with stat
+2024-02-21 00:09:58,981 WARNING werkzeug  * Debugger is active!
+2024-02-21 00:09:58,982 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-21 00:49:31,059 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 00:49:31] "POST /steps HTTP/1.1" 200 -
+2024-02-21 09:34:31,180 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 09:34:31] "GET /getdeg HTTP/1.1" 200 -
+2024-02-21 23:27:15,096 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:27:15] "GET / HTTP/1.1" 200 -
+2024-02-21 23:27:15,254 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:27:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-21 23:29:57,238 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.29:5002
+2024-02-21 23:29:57,243 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-21 23:29:57,256 INFO werkzeug  * Restarting with stat
+2024-02-21 23:29:57,968 WARNING werkzeug  * Debugger is active!
+2024-02-21 23:29:57,969 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-02-21 23:31:22,663 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:31:22] "POST /steps HTTP/1.1" 200 -
+2024-02-21 23:43:25,964 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:43:25] "POST /tozero HTTP/1.1" 200 -
+2024-02-21 23:44:27,305 INFO werkzeug 127.0.0.1 - - [21/Feb/2024 23:44:27] "POST /steps HTTP/1.1" 200 -
+2024-02-22 00:37:22,270 ERROR __main__ {'right': 160, 'left': -160}
+2024-02-22 00:37:22,272 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 00:37:22] "GET /getlimits HTTP/1.1" 200 -
+2024-02-22 08:48:24,075 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 08:48:24] "POST /steps HTTP/1.1" 200 -
+2024-02-22 08:49:22,551 INFO werkzeug 127.0.0.1 - - [22/Feb/2024 08:49:22] "POST /steps HTTP/1.1" 200 -
+2024-02-23 00:01:53,524 INFO werkzeug 127.0.0.1 - - [23/Feb/2024 00:01:53] "POST /steps HTTP/1.1" 200 -
+2024-02-23 00:02:17,055 INFO werkzeug 127.0.0.1 - - [23/Feb/2024 00:02:17] "POST /steps HTTP/1.1" 200 -
+2024-02-24 21:35:59,510 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:35:59] "POST /tozero HTTP/1.1" 200 -
+2024-02-24 21:36:22,052 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:36:22] "POST /steps HTTP/1.1" 200 -

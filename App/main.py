@@ -7,12 +7,9 @@ import json
 from io import BytesIO
 from werkzeug.security import generate_password_hash, check_password_hash
 import logging
-
-
-##uniformare i response gli errori per tutti i ws disponibili, bisogna iniziare a essere formale 17/10/2023 - Fatto
+from SysHandler import SystemHandler as sys
 ##gestire in oggetti diversi la connessione al db e gli utenti (anche se è da vedere)
 ##17/10/2023 - fare classi intere per gestire le cose (esempio una classe che gestisca il servizio, una per il db etc)
-
 
 def shutdown_server():
 	func = request.environ.get('werkzeug.server.shutdown')
@@ -950,6 +947,66 @@ def Admin():
 		code = 500
 		logger.error(e)
 	return makeResponse(status, frase, code)
+
+
+@app.route('/parametrisistema', methods = ['GET'])
+def SysParameters():
+	code = 500
+	ws = '/parametrisistema'	
+	try:
+		headers = request.headers
+		bearer = headers.get('Authorization')
+		token = bearer.split()[1]
+		auth = checkBearer(token, ws)
+		if auth == 200:
+			ans = generateAnswer('/parametrisistema', 200)
+			listAns = ans.split(']')
+			info = sys.getSystemInfo()
+			header = listAns[0].split('[')[0]
+			frase1 = header + '\n'
+			body = listAns[0].split('[')[1].split(']')[0]
+			for key, value in info.items():
+				row = body.replace('$tab1', key)
+				row = row.replace('$tab2', value)
+				frase1 += row
+				frase1 += '\n'
+			txt = "select pp.description, pp.value FROM par_parameters pp"
+			parametri = query(txt)
+			header = listAns[1].split('[')[0]
+			frase2 = header + '\n'
+			body = listAns[1].split('[')[1].split(']')[0]
+			for s in parametri:
+				row = body.replace('$tab3', s[0])
+				row = row.replace('$tab4', s[1])
+				frase2 += row
+				frase2 += '\n'
+
+			txt = "select uu.username, uu.chat_id, ss.description, rr.description FROM usr_users uu JOIN ser_services ss on uu.id_service = ss.id JOIN rol_roles rr on uu.`role` = rr.id where uu.fl_deleted = 0	"
+			utenti = query(txt)
+			header = listAns[2].split('[')[0]
+			frase3 = header + '\n'
+			body = listAns[2].split('[')[1].split(']')[0]
+			for s in utenti:
+				row = body.replace('$tab5', s[0])
+				row = row.replace('$tab6', s[1])
+				row = row.replace('$tab7', s[2])
+				row = row.replace('$tab8', s[3])
+				frase3 += row
+				frase3 += '\n'
+			frase = frase1 + frase2 + frase3
+			code = auth
+			status = 'ok'
+		else:
+			frase = generateAnswer('/parametrisistema', 401)
+			code = auth
+			status = 'ko'
+	except Exception as e:
+		frase = generateAnswer('/parametrisistema', 500)
+		status = 'ko'
+		code = 500
+		logger.error(e)
+	return makeResponse(status, frase, code)
+
 
 @app.route('/soglia', methods = ['POST'])
 def Soglia():

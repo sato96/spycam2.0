@@ -1,5 +1,5 @@
 from flask import Flask, make_response, request
-from Motor.motor import MotorStep
+from motor import MotorStep
 import json
 import logging
 
