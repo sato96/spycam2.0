@@ -15,7 +15,6 @@ logger=logging.getLogger(__name__)
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-	#manda alle mia api chat id e username e controlla se c'è posto in coda
 	user = update.effective_user.name 
 	chat_id = update.effective_chat.id 
 	service = service_code
@@ -23,9 +22,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 	data = {"user": {"username": user, "chat_id": str(chat_id)}, "service": service}
 	r = requests.post(url, json = data)
 	if r.status_code == 200:
-		await update.message.reply_text("Benvenuto " + update.effective_user.name +  ", ti contatterò qua!")
+		await update.message.reply_text(str(json.loads(r.text)['response']))
 	elif r.status_code != 500:
-		await update.message.reply_text("Sei già registrato o non puoi reigstrarti")
+		await update.message.reply_text(str(json.loads(r.text)['response']))
 	else:
 		await update.message.reply_text("Errore generico contatta l'admin")
 
