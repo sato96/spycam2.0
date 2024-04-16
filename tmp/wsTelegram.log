@@ -5315,3 +5315,956 @@
 2024-02-24 21:51:30,988 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:30] "POST /broadcastMsg HTTP/1.1" 200 -
 2024-02-24 21:51:34,239 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:34] "POST /broadcastVideo HTTP/1.1" 200 -
 2024-02-24 21:51:34,685 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:34] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-02-28 19:27:14,909 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-02-28 19:27:14,913 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-28 19:27:14,916 INFO werkzeug  * Restarting with stat
+2024-02-28 19:27:16,220 WARNING werkzeug  * Debugger is active!
+2024-02-28 19:27:16,221 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-28 19:27:30,234 INFO werkzeug 127.0.0.1 - - [28/Feb/2024 19:27:30] "POST /broadcastPic HTTP/1.1" 200 -
+2024-02-28 19:59:16,943 INFO werkzeug 127.0.0.1 - - [28/Feb/2024 19:59:16] "POST /broadcastPic HTTP/1.1" 200 -
+2024-02-29 12:19:25,365 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 12:19:25] "POST /broadcastPic HTTP/1.1" 200 -
+2024-02-29 13:38:49,555 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 13:38:49] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-02-29 13:38:50,083 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 13:38:50] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-02-29 13:49:09,356 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 13:49:09] "POST /broadcastPic HTTP/1.1" 200 -
+2024-02-29 19:08:58,014 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:08:58] "POST /broadcastPic HTTP/1.1" 200 -
+2024-02-29 19:10:59,650 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:10:59] "POST /broadcastPic HTTP/1.1" 200 -
+2024-02-29 19:11:37,917 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:11:37] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-02-29 19:11:38,514 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:11:38] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-02-29 19:12:05,547 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:12:05] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-02-29 19:12:06,018 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:12:06] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-02-29 19:12:15,407 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:12:15] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-02-29 19:12:15,994 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:12:15] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-02-29 23:29:46,619 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-02-29 23:29:46,877 INFO werkzeug  * Restarting with stat
+2024-02-29 23:29:47,935 WARNING werkzeug  * Debugger is active!
+2024-02-29 23:29:47,936 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-29 23:34:51,767 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-02-29 23:34:51,769 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-29 23:34:51,774 INFO werkzeug  * Restarting with stat
+2024-02-29 23:34:52,987 WARNING werkzeug  * Debugger is active!
+2024-02-29 23:34:52,988 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-02-29 23:45:47,228 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-02-29 23:45:47,230 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-29 23:45:47,232 INFO werkzeug  * Restarting with stat
+2024-02-29 23:45:48,569 WARNING werkzeug  * Debugger is active!
+2024-02-29 23:45:48,570 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-01 00:05:27,561 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-01 00:05:27,563 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-01 00:05:27,566 INFO werkzeug  * Restarting with stat
+2024-03-01 00:05:28,891 WARNING werkzeug  * Debugger is active!
+2024-03-01 00:05:28,892 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-01 00:55:21,102 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-01 00:55:21,107 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-01 00:55:21,109 INFO werkzeug  * Restarting with stat
+2024-03-01 00:55:22,463 WARNING werkzeug  * Debugger is active!
+2024-03-01 00:55:22,465 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-02 00:27:00,994 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-02 00:27:00,996 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 00:27:00,999 INFO werkzeug  * Restarting with stat
+2024-03-02 00:27:02,209 WARNING werkzeug  * Debugger is active!
+2024-03-02 00:27:02,210 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-02 01:07:11,195 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:07:11,424 INFO werkzeug  * Restarting with stat
+2024-03-02 01:07:12,483 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:07:12,484 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-02 01:14:47,911 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:14:48,145 INFO werkzeug  * Restarting with stat
+2024-03-02 01:14:49,162 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:14:49,163 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-02 01:16:00,441 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:16:00,685 INFO werkzeug  * Restarting with stat
+2024-03-02 01:16:01,688 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:16:01,688 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-02 01:20:47,454 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-02 01:20:47,456 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 01:20:47,458 INFO werkzeug  * Restarting with stat
+2024-03-02 01:20:48,644 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:20:48,645 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-02 01:21:35,231 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:21:35,459 INFO werkzeug  * Restarting with stat
+2024-03-02 01:21:36,458 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:21:36,459 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-02 01:23:41,041 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-02 01:23:41,045 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 01:23:41,047 INFO werkzeug  * Restarting with stat
+2024-03-02 01:23:42,481 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:23:42,482 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:24:40,308 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:24:40,534 INFO werkzeug  * Restarting with stat
+2024-03-02 01:24:41,591 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:24:41,592 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:24:54,022 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:24:54,243 INFO werkzeug  * Restarting with stat
+2024-03-02 01:24:55,292 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:24:55,293 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:27:53,012 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:27:53,235 INFO werkzeug  * Restarting with stat
+2024-03-02 01:27:54,237 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:27:54,238 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:28:57,208 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:28:57,433 INFO werkzeug  * Restarting with stat
+2024-03-02 01:28:58,483 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:28:58,484 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:31:28,461 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:31:28,686 INFO werkzeug  * Restarting with stat
+2024-03-02 01:31:29,685 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:31:29,686 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:32:56,926 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:32:57,152 INFO werkzeug  * Restarting with stat
+2024-03-02 01:32:58,167 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:32:58,168 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:34:45,450 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:34:45,683 INFO werkzeug  * Restarting with stat
+2024-03-02 01:34:46,687 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:34:46,688 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:36:01,023 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:36:01,244 INFO werkzeug  * Restarting with stat
+2024-03-02 01:36:02,250 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:36:02,251 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:37:48,719 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:37:48,938 INFO werkzeug  * Restarting with stat
+2024-03-02 01:37:49,935 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:37:49,935 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:40:56,301 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:40:56,521 INFO werkzeug  * Restarting with stat
+2024-03-02 01:40:57,524 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:40:57,525 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:42:37,712 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:42:37,933 INFO werkzeug  * Restarting with stat
+2024-03-02 01:42:38,939 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:42:38,940 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:43:10,000 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:43:10,225 INFO werkzeug  * Restarting with stat
+2024-03-02 01:43:11,229 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:43:11,230 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:43:53,880 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:43:54,108 INFO werkzeug  * Restarting with stat
+2024-03-02 01:43:55,119 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:43:55,120 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:46:19,748 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:46:19,971 INFO werkzeug  * Restarting with stat
+2024-03-02 01:46:21,024 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:46:21,024 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:48:50,844 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-02 01:48:50,847 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 01:48:50,851 INFO werkzeug  * Restarting with stat
+2024-03-02 01:48:52,221 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:48:52,222 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:49:28,467 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:49:28,717 INFO werkzeug  * Restarting with stat
+2024-03-02 01:49:29,724 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:49:29,725 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:50:29,647 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:50:29,876 INFO werkzeug  * Restarting with stat
+2024-03-02 01:50:30,888 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:50:30,889 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:50:58,806 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:50:59,033 INFO werkzeug  * Restarting with stat
+2024-03-02 01:51:00,082 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:51:00,083 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:51:59,867 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:52:00,103 INFO werkzeug  * Restarting with stat
+2024-03-02 01:52:01,110 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:52:01,111 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:55:52,710 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 01:55:52,939 INFO werkzeug  * Restarting with stat
+2024-03-02 01:55:53,998 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:55:53,999 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:03:00,548 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:03:00,786 INFO werkzeug  * Restarting with stat
+2024-03-02 02:03:01,790 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:03:01,791 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:04:38,740 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:04:38,969 INFO werkzeug  * Restarting with stat
+2024-03-02 02:04:40,020 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:04:40,021 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:08:49,893 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:08:50,120 INFO werkzeug  * Restarting with stat
+2024-03-02 02:08:51,126 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:08:51,127 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:10:54,308 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:10:54,535 INFO werkzeug  * Restarting with stat
+2024-03-02 02:10:55,546 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:10:55,547 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:11:56,418 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:11:56,646 INFO werkzeug  * Restarting with stat
+2024-03-02 02:11:57,654 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:11:57,655 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:12:27,700 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:12:27,928 INFO werkzeug  * Restarting with stat
+2024-03-02 02:12:28,929 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:12:28,930 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:15:00,816 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-02 02:15:01,071 INFO werkzeug  * Restarting with stat
+2024-03-02 02:15:02,078 WARNING werkzeug  * Debugger is active!
+2024-03-02 02:15:02,079 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-14 23:43:02,397 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-14 23:43:02,399 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-14 23:43:02,402 INFO werkzeug  * Restarting with stat
+2024-03-14 23:43:03,695 WARNING werkzeug  * Debugger is active!
+2024-03-14 23:43:03,696 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 00:41:55,670 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 00:41:55,673 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 00:41:55,675 INFO werkzeug  * Restarting with stat
+2024-03-16 00:41:57,184 WARNING werkzeug  * Debugger is active!
+2024-03-16 00:41:57,185 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-16 00:48:14,579 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:48:14] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 00:53:33,920 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:53:33] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 00:54:53,764 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:54:53] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 00:56:51,058 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:56:51] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 01:08:21,525 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 01:08:21,528 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:08:21,531 INFO werkzeug  * Restarting with stat
+2024-03-16 01:08:22,852 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:08:22,853 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 01:08:41,111 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:08:41] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:18:19,936 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 01:18:19,938 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:18:19,940 INFO werkzeug  * Restarting with stat
+2024-03-16 01:18:21,338 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:18:21,339 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:22:04,323 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:22:04] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 01:22:04,633 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:22:04] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 01:29:06,312 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:29:06] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:29:06,322 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:29:06,323 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:29:06] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:29:16,939 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:29:16] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:29:16,947 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:29:16,948 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:29:16] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:30:36,266 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:30:36] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:30:36,274 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:30:36,275 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:30:36] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:30:40,118 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:30:40] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:30:40,125 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:30:40,126 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:30:40] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:33:48,242 ERROR __main__ Timed out
+2024-03-16 01:33:48,244 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:33:48] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:33:48,253 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:33:48,254 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:33:48] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:34:29,628 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:34:29] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:34:29,638 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:34:29,639 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:34:29] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:35:29,956 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:35:29] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:35:29,969 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:35:29,971 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:35:29] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:35:42,740 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:35:42] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:35:42,748 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:35:42,749 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:35:42] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:37:54,178 ERROR __main__ Timed out
+2024-03-16 01:37:54,181 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:37:54] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:37:54,194 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:37:54,197 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:37:54] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:37:57,308 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:37:57] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:37:57,316 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:37:57,317 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:37:57] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:41:22,583 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/WsTg.py', reloading
+2024-03-16 01:41:22,976 INFO werkzeug  * Restarting with stat
+2024-03-16 01:41:24,256 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:41:24,257 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:41:59,981 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:41:59] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:41:59,993 ERROR __main__ 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-16 01:41:59,995 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:41:59] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-16 01:42:46,194 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:42:46] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 01:42:46,702 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:42:46] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 01:44:38,187 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 01:44:38,188 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:44:38,191 INFO werkzeug  * Restarting with stat
+2024-03-16 01:44:39,485 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:44:39,486 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:48:18,505 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-16 01:48:18,731 INFO werkzeug  * Restarting with stat
+2024-03-16 01:48:19,733 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:48:19,734 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:49:01,043 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-16 01:49:01,269 INFO werkzeug  * Restarting with stat
+2024-03-16 01:49:02,285 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:49:02,286 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:52:17,706 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-16 01:52:17,933 INFO werkzeug  * Restarting with stat
+2024-03-16 01:52:18,936 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:52:18,937 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:56:30,804 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-16 01:56:31,031 INFO werkzeug  * Restarting with stat
+2024-03-16 01:56:32,085 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:56:32,085 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:58:15,502 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 01:58:15,504 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:58:15,507 INFO werkzeug  * Restarting with stat
+2024-03-16 01:58:16,824 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:58:16,825 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 01:59:22,880 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-16 01:59:23,103 INFO werkzeug  * Restarting with stat
+2024-03-16 01:59:24,098 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:59:24,099 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 02:01:31,194 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 02:01:31,198 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 02:01:31,200 INFO werkzeug  * Restarting with stat
+2024-03-16 02:01:58,518 WARNING werkzeug  * Debugger is active!
+2024-03-16 02:01:58,519 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-16 02:03:49,895 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:03:49] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 02:04:04,841 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:04:04] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 02:05:21,828 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:05:21] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 02:05:22,289 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:05:22] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 02:06:06,147 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:06:06] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 02:08:50,386 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:08:50] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 02:09:08,140 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:09:08] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 09:12:55,370 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:12:55] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 09:13:23,754 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:13:23] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 09:14:51,638 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:14:51] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 09:15:57,297 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:15:57] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 09:21:52,908 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:21:52] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 09:21:53,389 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:21:53] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 09:40:23,243 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:40:23] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 09:40:23,795 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:40:23] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 09:43:02,502 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:02] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 09:43:03,212 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:03] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 09:43:06,313 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:06] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 09:43:06,823 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:06] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 09:43:24,182 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:24] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 10:07:42,822 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:07:42] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 10:26:49,404 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:26:49] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:26:49,890 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:26:49] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:26:53,766 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:26:53] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:26:54,249 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:26:54] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:27:06,175 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:27:06] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 10:27:11,540 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:27:11] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 10:31:04,988 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:31:04] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:31:05,450 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:31:05] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:31:08,484 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:31:08] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:31:08,986 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:31:08] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:33:46,888 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 10:33:46,890 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 10:33:46,893 INFO werkzeug  * Restarting with stat
+2024-03-16 10:33:48,381 WARNING werkzeug  * Debugger is active!
+2024-03-16 10:33:48,383 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-16 10:34:26,001 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:34:26] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 10:35:02,660 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:35:02] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:35:03,155 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:35:03] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:36:36,437 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:36:36] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:36:36,972 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:36:36] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:38:54,003 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-16 10:38:54,046 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 10:38:54,049 INFO werkzeug  * Restarting with stat
+2024-03-16 10:38:55,405 WARNING werkzeug  * Debugger is active!
+2024-03-16 10:38:55,406 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-16 10:39:09,743 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:09] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:39:10,222 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:10] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:39:17,986 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:17] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:39:18,519 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:18] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:39:45,178 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:45] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:39:45,714 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:45] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:40:15,632 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:15] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:40:16,124 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:16] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:40:26,591 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:26] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:40:27,069 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:27] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:40:45,321 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:45] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:40:45,931 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:45] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:40:56,030 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:56] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:40:56,557 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:56] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:40:59,839 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:40:59] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:00,337 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:00] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:03,327 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:03] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:03,819 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:03] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:07,998 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:07] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:08,439 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:08] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:13,662 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:13] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:14,132 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:14] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:17,286 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:17] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:17,743 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:17] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:29,533 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:29] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:29,975 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:29] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:33,060 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:33] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:33,525 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:33] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:41:52,979 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:52] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:41:53,458 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:41:53] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:44:18,989 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:44:18] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:44:19,459 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:44:19] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:44:30,367 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:44:30] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:44:30,809 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:44:30] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 10:44:33,908 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:44:33] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 10:44:34,463 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:44:34] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 11:29:27,397 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 11:29:27] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 12:09:32,544 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:09:32] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 12:23:09,051 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:23:09] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 12:23:09,526 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:23:09] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 12:23:14,272 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:23:14] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 12:23:14,707 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:23:14] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 12:23:38,193 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:23:38] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 12:23:38,702 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:23:38] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 18:48:59,271 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 18:48:59] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-16 20:50:24,503 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:50:24] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 20:50:25,117 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:50:25] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 20:51:01,287 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:51:01] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 20:51:01,868 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:51:01] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 20:51:38,075 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:51:38] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 20:51:38,562 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:51:38] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 20:52:03,268 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:52:03] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 20:52:03,752 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:52:03] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-16 20:52:18,068 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:52:18] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-16 20:52:18,683 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 20:52:18] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 13:17:45,424 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 13:17:45] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-17 18:38:59,411 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:38:59] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 18:38:59,897 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:38:59] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 18:39:38,945 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:39:38] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 18:39:39,431 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:39:39] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 18:53:03,529 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:53:03] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 18:53:04,034 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:53:04] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 18:53:25,489 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:53:25] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 18:53:26,030 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 18:53:26] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 21:34:55,516 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:34:55] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 21:34:56,039 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:34:56] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 21:34:59,277 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:34:59] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 21:34:59,756 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:34:59] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 21:35:02,910 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:02] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 21:35:03,458 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:03] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 21:35:06,822 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:06] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 21:35:07,352 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:07] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 21:35:10,440 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:10] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-17 21:35:10,934 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:10] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-17 23:23:00,100 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 23:23:00] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-18 10:10:46,357 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 10:10:46] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-18 13:23:45,510 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 13:23:45] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-18 13:23:45,964 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 13:23:45] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-18 13:23:49,067 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 13:23:49] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-18 13:23:49,595 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 13:23:49] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-18 22:53:51,367 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 22:53:51,678 INFO werkzeug  * Restarting with stat
+2024-03-18 22:53:52,677 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:53:52,678 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-18 22:55:23,969 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 22:55:23,971 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 22:55:23,974 INFO werkzeug  * Restarting with stat
+2024-03-18 22:55:25,128 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:55:25,129 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 22:58:13,564 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 22:58:13,565 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 22:58:13,567 INFO werkzeug  * Restarting with stat
+2024-03-18 22:58:14,737 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:58:14,738 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 22:58:24,089 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 22:58:24,309 INFO werkzeug  * Restarting with stat
+2024-03-18 22:58:25,292 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:58:25,293 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:00:26,314 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:00:26,535 INFO werkzeug  * Restarting with stat
+2024-03-18 23:00:27,564 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:00:27,564 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:05:49,447 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:05:49,448 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:05:49,451 INFO werkzeug  * Restarting with stat
+2024-03-18 23:05:50,729 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:05:50,730 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:29:17,971 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:29:18,193 INFO werkzeug  * Restarting with stat
+2024-03-18 23:29:19,193 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:29:19,194 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:30:35,398 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:30:35,398 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:30:35,402 INFO werkzeug  * Restarting with stat
+2024-03-18 23:30:36,680 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:30:36,681 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:31:38,840 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:31:39,080 INFO werkzeug  * Restarting with stat
+2024-03-18 23:31:40,067 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:31:40,068 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:33:42,261 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:33:42,480 INFO werkzeug  * Restarting with stat
+2024-03-18 23:33:43,479 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:33:43,480 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:33:52,210 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:33:52,210 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:33:52,215 INFO werkzeug  * Restarting with stat
+2024-03-18 23:33:53,592 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:33:53,593 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:40:13,946 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:40:14,167 INFO werkzeug  * Restarting with stat
+2024-03-18 23:40:15,168 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:40:15,169 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:40:22,285 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:40:22,286 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:40:22,288 INFO werkzeug  * Restarting with stat
+2024-03-18 23:40:23,747 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:40:23,748 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:40:52,804 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:40:53,025 INFO werkzeug  * Restarting with stat
+2024-03-18 23:40:54,020 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:40:54,021 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:41:16,013 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:41:16,014 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:41:16,017 INFO werkzeug  * Restarting with stat
+2024-03-18 23:41:17,319 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:41:17,320 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:44:12,588 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:44:12,818 INFO werkzeug  * Restarting with stat
+2024-03-18 23:44:13,808 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:44:13,809 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:44:18,940 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:44:18,941 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:44:18,945 INFO werkzeug  * Restarting with stat
+2024-03-18 23:44:20,330 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:44:20,331 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:46:36,448 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:46:36,681 INFO werkzeug  * Restarting with stat
+2024-03-18 23:46:37,672 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:46:37,673 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:46:51,749 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:46:51,749 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:46:51,752 INFO werkzeug  * Restarting with stat
+2024-03-18 23:46:53,246 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:46:53,247 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:47:04,179 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 23:47:04] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-18 23:47:41,722 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:47:41,956 INFO werkzeug  * Restarting with stat
+2024-03-18 23:47:42,956 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:47:42,957 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:47:55,778 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:47:55,778 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:47:55,781 INFO werkzeug  * Restarting with stat
+2024-03-18 23:47:57,081 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:47:57,083 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:48:13,005 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:48:13,005 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:48:13,008 INFO werkzeug  * Restarting with stat
+2024-03-18 23:48:14,324 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:48:14,325 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:48:54,642 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:48:54,866 INFO werkzeug  * Restarting with stat
+2024-03-18 23:48:55,860 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:48:55,860 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:49:02,434 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:49:02,435 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:49:02,438 INFO werkzeug  * Restarting with stat
+2024-03-18 23:49:03,851 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:49:03,852 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:49:25,528 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:49:25,748 INFO werkzeug  * Restarting with stat
+2024-03-18 23:49:26,747 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:49:26,748 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:49:37,075 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:49:37,075 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:49:37,078 INFO werkzeug  * Restarting with stat
+2024-03-18 23:49:38,554 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:49:38,555 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:54:29,003 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-18 23:54:29,223 INFO werkzeug  * Restarting with stat
+2024-03-18 23:54:30,222 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:54:30,223 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:54:40,830 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-18 23:54:40,831 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:54:40,833 INFO werkzeug  * Restarting with stat
+2024-03-18 23:54:42,155 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:54:42,156 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:01:12,378 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-19 00:01:12,600 INFO werkzeug  * Restarting with stat
+2024-03-19 00:01:13,598 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:01:13,598 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:01:32,248 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-19 00:01:32,500 INFO werkzeug  * Restarting with stat
+2024-03-19 00:01:33,488 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:01:33,488 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:02:35,494 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-19 00:02:35,714 INFO werkzeug  * Restarting with stat
+2024-03-19 00:02:36,715 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:02:36,716 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:02:51,897 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:02:51,897 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:02:51,900 INFO werkzeug  * Restarting with stat
+2024-03-19 00:02:53,395 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:02:53,396 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:03:48,210 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-19 00:03:48,430 INFO werkzeug  * Restarting with stat
+2024-03-19 00:03:49,425 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:03:49,426 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:03:56,588 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:03:56,588 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:03:56,595 INFO werkzeug  * Restarting with stat
+2024-03-19 00:03:57,878 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:03:57,879 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:05:47,177 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-19 00:05:47,396 INFO werkzeug  * Restarting with stat
+2024-03-19 00:05:48,440 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:05:48,440 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:05:53,904 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:05:53,905 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:05:53,908 INFO werkzeug  * Restarting with stat
+2024-03-19 00:05:55,284 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:05:55,285 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:07:07,397 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-19 00:07:07,626 INFO werkzeug  * Restarting with stat
+2024-03-19 00:07:08,611 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:07:08,612 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:08:22,800 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:08:22,800 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:08:22,803 INFO werkzeug  * Restarting with stat
+2024-03-19 00:08:24,252 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:08:24,253 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:09:57,211 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-19 00:09:57,436 INFO werkzeug  * Restarting with stat
+2024-03-19 00:09:58,481 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:09:58,482 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:10:14,453 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:10:14,454 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:10:14,457 INFO werkzeug  * Restarting with stat
+2024-03-19 00:10:15,788 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:10:15,790 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:11:52,569 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-19 00:11:52,789 INFO werkzeug  * Restarting with stat
+2024-03-19 00:11:53,790 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:11:53,790 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:12:02,336 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:12:02,341 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:12:02,344 INFO werkzeug  * Restarting with stat
+2024-03-19 00:12:03,793 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:12:03,794 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:12:39,113 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:12:39] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-19 00:15:42,151 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-19 00:15:42,385 INFO werkzeug  * Restarting with stat
+2024-03-19 00:15:43,385 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:15:43,386 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:15:49,569 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:15:49,570 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:15:49,573 INFO werkzeug  * Restarting with stat
+2024-03-19 00:15:50,904 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:15:50,906 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:16:10,300 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:16:10] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-19 00:16:46,703 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/LoginTelegram.py', reloading
+2024-03-19 00:16:46,936 INFO werkzeug  * Restarting with stat
+2024-03-19 00:16:47,951 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:16:47,952 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:16:51,115 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/CommandRequest.py', reloading
+2024-03-19 00:16:51,339 INFO werkzeug  * Restarting with stat
+2024-03-19 00:16:52,327 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:16:52,328 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:18:56,388 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/TgBot.py', reloading
+2024-03-19 00:18:56,610 INFO werkzeug  * Restarting with stat
+2024-03-19 00:18:57,604 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:18:57,605 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:20:29,196 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:20:29,198 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:20:29,202 INFO werkzeug  * Restarting with stat
+2024-03-19 00:20:30,427 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:20:30,428 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-19 00:22:28,100 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:22:28,100 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:22:28,103 INFO werkzeug  * Restarting with stat
+2024-03-19 00:22:29,618 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:22:29,619 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:23:19,810 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:23:19] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-19 00:25:18,667 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:25:18,668 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:25:18,675 INFO werkzeug  * Restarting with stat
+2024-03-19 00:25:20,034 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:25:20,034 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-19 00:30:15,679 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-19 00:30:15,679 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:30:15,682 INFO werkzeug  * Restarting with stat
+2024-03-19 00:30:17,048 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:30:17,049 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-19 00:31:13,002 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:31:13] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-19 00:31:53,328 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:31:53] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-19 00:37:23,649 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:37:23] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-19 00:38:50,067 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:38:50] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-19 08:16:25,722 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:16:25] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-19 08:16:26,310 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:16:26] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-19 08:16:37,965 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:16:37] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-19 08:16:38,414 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:16:38] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-19 18:54:58,510 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 18:54:58] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-19 18:55:39,227 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 18:55:39] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-19 21:09:58,345 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 21:09:58] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-20 12:16:01,597 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 12:16:01] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-20 12:16:02,181 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 12:16:02] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-20 20:47:48,240 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 20:47:48] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-20 20:47:48,728 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 20:47:48] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 12:45:20,032 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 12:45:20] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-21 19:00:23,688 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:00:23] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-21 19:00:24,402 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:00:24] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 19:02:02,139 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:02] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-21 19:02:02,640 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:02] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 19:02:09,996 ERROR __main__ Timed out
+2024-03-21 19:02:09,997 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:09] "[35m[1mPOST /broadcastVideo HTTP/1.1[0m" 500 -
+2024-03-21 19:02:10,503 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:10] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 19:02:13,841 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:13] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-21 19:02:14,613 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:14] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 19:02:22,869 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:22] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-21 19:02:23,358 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:23] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 19:03:25,020 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:03:25] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-21 21:10:37,948 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 21:10:37] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-21 23:26:18,266 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 23:26:18] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-21 23:33:58,606 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 23:33:58] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-23 23:55:55,341 INFO werkzeug 127.0.0.1 - - [23/Mar/2024 23:55:55] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-24 17:20:28,152 ERROR __main__ Timed out
+2024-03-24 17:20:28,153 INFO werkzeug 127.0.0.1 - - [24/Mar/2024 17:20:28] "[35m[1mPOST /broadcastPic HTTP/1.1[0m" 500 -
+2024-03-24 17:20:43,059 INFO werkzeug 127.0.0.1 - - [24/Mar/2024 17:20:43] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-24 21:00:25,194 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-24 21:00:25,195 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-24 21:00:25,206 INFO werkzeug  * Restarting with stat
+2024-03-24 21:00:29,079 WARNING werkzeug  * Debugger is active!
+2024-03-24 21:00:29,080 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-25 13:13:07,331 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-25 13:13:07,332 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 13:13:07,335 INFO werkzeug  * Restarting with stat
+2024-03-25 13:13:08,665 WARNING werkzeug  * Debugger is active!
+2024-03-25 13:13:08,666 INFO werkzeug  * Debugger PIN: 120-628-079
+2024-03-25 13:55:54,345 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-25 13:55:54,351 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 13:55:54,353 INFO werkzeug  * Restarting with stat
+2024-03-25 13:55:55,649 WARNING werkzeug  * Debugger is active!
+2024-03-25 13:55:55,650 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-25 13:56:26,085 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:26] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-25 13:56:39,316 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:39] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-25 13:56:39,852 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:39] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-25 13:56:48,061 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:48] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-25 13:56:48,584 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:48] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-25 19:42:12,763 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Telegram/WsTg.py', reloading
+2024-03-25 19:42:13,015 INFO werkzeug  * Restarting with stat
+2024-03-25 19:42:14,057 WARNING werkzeug  * Debugger is active!
+2024-03-25 19:42:14,058 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-25 19:44:45,486 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-25 19:44:45,490 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 19:44:45,493 INFO werkzeug  * Restarting with stat
+2024-03-25 19:44:46,754 WARNING werkzeug  * Debugger is active!
+2024-03-25 19:44:46,755 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-25 22:13:19,550 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-03-25 22:13:19,554 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 22:13:19,556 INFO werkzeug  * Restarting with stat
+2024-03-25 22:13:21,557 WARNING werkzeug  * Debugger is active!
+2024-03-25 22:13:21,558 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-26 14:27:13,500 INFO werkzeug 127.0.0.1 - - [26/Mar/2024 14:27:13] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-26 14:28:23,387 INFO werkzeug 127.0.0.1 - - [26/Mar/2024 14:28:23] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-27 19:04:25,567 INFO werkzeug 127.0.0.1 - - [27/Mar/2024 19:04:25] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-28 00:20:30,310 INFO werkzeug 127.0.0.1 - - [28/Mar/2024 00:20:30] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-28 00:20:31,026 INFO werkzeug 127.0.0.1 - - [28/Mar/2024 00:20:31] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-29 23:41:39,642 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:41:39] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-29 23:42:07,887 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:42:07] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-29 23:42:50,753 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:42:50] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-29 23:42:51,398 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:42:51] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-30 11:08:12,954 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 11:08:12] "POST /broadcastPic HTTP/1.1" 200 -
+2024-03-30 13:54:51,386 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 13:54:51] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-30 13:54:51,886 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 13:54:51] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-30 13:55:16,453 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 13:55:16] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-03-30 13:55:16,919 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 13:55:16] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-03-31 10:05:38,765 INFO werkzeug 127.0.0.1 - - [31/Mar/2024 10:05:38] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-01 10:32:06,841 INFO werkzeug 127.0.0.1 - - [01/Apr/2024 10:32:06] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-01 18:39:42,657 INFO werkzeug 127.0.0.1 - - [01/Apr/2024 18:39:42] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-01 18:39:43,128 INFO werkzeug 127.0.0.1 - - [01/Apr/2024 18:39:43] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-02 11:27:12,928 INFO werkzeug 127.0.0.1 - - [02/Apr/2024 11:27:12] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-04 16:24:03,832 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 16:24:03] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-04 16:24:47,098 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 16:24:47] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-04 20:24:04,136 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:04] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-04 20:24:04,661 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:04] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-04 20:24:07,806 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:07] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-04 20:24:08,473 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:08] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-04 20:24:11,808 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:11] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-04 20:24:12,322 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:12] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-04 20:24:16,581 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:16] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-04 20:24:17,248 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:17] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-04 20:24:20,551 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:20] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-04 20:24:21,067 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:24:21] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-07 17:02:33,842 INFO werkzeug 127.0.0.1 - - [07/Apr/2024 17:02:33] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-07 18:52:43,056 INFO werkzeug 127.0.0.1 - - [07/Apr/2024 18:52:43] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-07 21:05:17,742 INFO werkzeug 127.0.0.1 - - [07/Apr/2024 21:05:17] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-07 21:05:33,820 INFO werkzeug 127.0.0.1 - - [07/Apr/2024 21:05:33] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-09 22:01:39,668 INFO werkzeug 127.0.0.1 - - [09/Apr/2024 22:01:39] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-09 22:01:47,712 INFO werkzeug 127.0.0.1 - - [09/Apr/2024 22:01:47] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-09 22:02:03,306 INFO werkzeug 127.0.0.1 - - [09/Apr/2024 22:02:03] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-10 20:47:58,416 INFO werkzeug 127.0.0.1 - - [10/Apr/2024 20:47:58] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-11 13:14:19,689 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 13:14:19] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-11 23:32:41,528 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:32:41] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:36:14,610 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:36:14] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:36:55,809 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:36:55] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:44:00,850 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.29:5003
+2024-04-11 23:44:00,852 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-11 23:44:00,854 INFO werkzeug  * Restarting with stat
+2024-04-11 23:44:02,128 WARNING werkzeug  * Debugger is active!
+2024-04-11 23:44:02,129 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-04-11 23:44:20,582 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:44:20] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:44:30,541 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:44:30] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:45:45,246 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:45:45] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:45:55,204 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:45:55] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:47:43,815 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:47:43] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:48:36,034 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:48:36] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-11 23:53:33,062 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:53:33] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:03:22,081 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:03:22] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:04:57,106 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:04:57] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:05:56,705 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:05:56] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:06:03,160 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:06:03] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:06:08,361 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:06:08] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:08:43,809 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:08:43] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:11:25,187 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:11:25] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:13:57,827 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:13:57] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:18:34,627 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:18:34] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-12 00:18:35,249 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:18:35] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:18:38,654 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:18:38] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-12 00:18:39,129 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:18:39] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:19:01,446 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:19:01] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-12 00:19:01,902 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:19:01] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:19:16,673 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:19:16] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-12 00:19:17,158 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:19:17] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:20:04,495 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:20:04] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-12 00:20:05,018 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:20:05] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 00:25:25,435 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:25:25] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 08:00:28,005 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:00:28] "POST /broadcastVideo HTTP/1.1" 200 -
+2024-04-12 08:00:28,467 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:00:28] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 08:03:56,454 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:03:56] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 08:17:13,024 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:17:13] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 08:17:17,317 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:17:17] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 08:17:19,471 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:17:19] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-12 08:17:54,739 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:17:54] "POST /broadcastMsg HTTP/1.1" 200 -
+2024-04-13 21:50:21,461 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 21:50:21] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-14 21:07:59,892 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.17:5003
+2024-04-14 21:07:59,901 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-14 21:07:59,907 INFO werkzeug  * Restarting with stat
+2024-04-14 21:08:01,285 WARNING werkzeug  * Debugger is active!
+2024-04-14 21:08:01,286 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-04-14 21:09:27,775 INFO werkzeug 127.0.0.1 - - [14/Apr/2024 21:09:27] "POST /broadcastPic HTTP/1.1" 200 -
+2024-04-15 20:36:48,196 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:48] "POST /broadcastPic HTTP/1.1" 200 -

@@ -117,7 +117,7 @@ def tresh():
         dati = json.loads(body.decode('utf-8'))
         b = dati['threshold']
         cam.thresh = b
-        resp = 'ok'
+        resp = str(b)
         status = 'ok'
     except Exception as e:
         logger.error(e)

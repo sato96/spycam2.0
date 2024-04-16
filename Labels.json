@@ -1,0 +1,13 @@
+{
+	"signInError": "Qualcosa è andato storto con la registrazione, contatta l'admin",
+	"infoFromUser": {
+		"ruota": "Di quanto gradi deve ruotare?",
+		"comunicazioni": "Che messaggio vuoi mandare?",
+		"soglia": "Che nuova soglia vuoi inserire?",
+		"setlimiti": "Inserisci i limiti nel formato: destra [limite] sinistra [limite]",
+		"setlimitesx": "Inserisci il nuovo limite sinistro",
+		"setlimitedx": "Inserisci il nuovo limite destro"
+	},
+	"commandNotFound": "Si è verificato un errore non previsto per un comando non trovato",
+	"back": "Indietro"
+}

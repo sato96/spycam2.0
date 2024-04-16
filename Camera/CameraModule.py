@@ -139,23 +139,3 @@ class spycam(object):
 			self._logger(e)
 		return s
 
-
-if __name__ == '__main__' :
-	hasRun=True
-	cam = spycam()
-	while hasRun:
-		print('Scegli il comando:\n 1 - Start\n 2 - Stop \n 3 - Foto \n 4 - Esci')
-		deg = int(input())
-		if deg == 1:
-			t0 = threading.Thread(target = cam.start)
-			t0.start()	
-		elif deg == 2:
-			cam.stop()
-		elif deg == 3:
-			cam.pic()
-		elif deg == 4:
-			cam.stop()
-			hasRun = False
-		elif deg == 5:
-			print(cam.getConfig())
-	print('Ciao ciao')

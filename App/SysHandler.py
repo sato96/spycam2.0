@@ -22,7 +22,7 @@ class SystemHandler:
 			info['ram-available'] = str(round(psutil.virtual_memory().available / (1024.0 ** 3),3)) + " GB"
 			return info
 		except Exception as e:
-			print(e)
+			pass
 	@staticmethod
 	def get_local_ip():
 		s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

@@ -1,1 +1,1 @@
-{"threshold":7, "url": "http://localhost:5001/alert", "logPath": "tmp/logPicamera.log"}
+{"threshold":4, "url": "http://localhost:5001/alert", "logPath": "tmp/logPicamera.log"}

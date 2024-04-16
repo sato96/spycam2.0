@@ -122,3 +122,565 @@
 2024-02-24 21:44:05,341 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:44:05] "POST /stop HTTP/1.1" 200 -
 2024-02-24 21:51:16,867 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:16] "POST /start HTTP/1.1" 200 -
 2024-02-24 21:51:39,302 INFO werkzeug 127.0.0.1 - - [24/Feb/2024 21:51:39] "POST /stop HTTP/1.1" 200 -
+2024-02-28 19:23:48,822 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-28 19:23:48,823 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-28 19:23:48,826 INFO werkzeug  * Restarting with stat
+2024-02-28 19:23:50,242 WARNING werkzeug  * Debugger is active!
+2024-02-28 19:23:50,243 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-28 19:27:16,594 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-28 19:27:16,595 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-28 19:27:16,597 INFO werkzeug  * Restarting with stat
+2024-02-28 19:27:18,047 WARNING werkzeug  * Debugger is active!
+2024-02-28 19:27:18,048 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-02-28 19:27:29,351 INFO werkzeug 127.0.0.1 - - [28/Feb/2024 19:27:29] "GET /pic HTTP/1.1" 200 -
+2024-02-28 19:59:15,967 INFO werkzeug 127.0.0.1 - - [28/Feb/2024 19:59:15] "GET /pic HTTP/1.1" 200 -
+2024-02-29 12:19:24,234 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 12:19:24] "GET /pic HTTP/1.1" 200 -
+2024-02-29 12:19:44,670 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 12:19:44] "POST /start HTTP/1.1" 200 -
+2024-02-29 13:48:55,617 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 13:48:55] "POST /stop HTTP/1.1" 200 -
+2024-02-29 13:49:08,457 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 13:49:08] "GET /pic HTTP/1.1" 200 -
+2024-02-29 19:08:56,905 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:08:56] "GET /pic HTTP/1.1" 200 -
+2024-02-29 19:10:21,737 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:10:21] "POST /start HTTP/1.1" 200 -
+2024-02-29 19:10:53,025 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:10:53] "POST /stop HTTP/1.1" 200 -
+2024-02-29 19:10:58,719 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:10:58] "GET /pic HTTP/1.1" 200 -
+2024-02-29 19:11:15,156 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:11:15] "POST /start HTTP/1.1" 200 -
+2024-02-29 19:12:21,943 INFO werkzeug 127.0.0.1 - - [29/Feb/2024 19:12:21] "POST /stop HTTP/1.1" 200 -
+2024-02-29 23:34:53,436 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-29 23:34:53,437 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-29 23:34:53,440 INFO werkzeug  * Restarting with stat
+2024-02-29 23:34:54,910 WARNING werkzeug  * Debugger is active!
+2024-02-29 23:34:54,911 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-02-29 23:45:48,992 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-02-29 23:45:48,993 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-02-29 23:45:48,996 INFO werkzeug  * Restarting with stat
+2024-02-29 23:45:50,430 WARNING werkzeug  * Debugger is active!
+2024-02-29 23:45:50,430 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-01 00:05:29,201 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-01 00:05:29,201 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-01 00:05:29,204 INFO werkzeug  * Restarting with stat
+2024-03-01 00:05:30,658 WARNING werkzeug  * Debugger is active!
+2024-03-01 00:05:30,658 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-01 00:55:22,631 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-01 00:55:22,632 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-01 00:55:22,635 INFO werkzeug  * Restarting with stat
+2024-03-01 00:55:24,093 WARNING werkzeug  * Debugger is active!
+2024-03-01 00:55:24,094 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-02 00:27:02,565 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-02 00:27:02,566 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 00:27:02,569 INFO werkzeug  * Restarting with stat
+2024-03-02 00:27:03,995 WARNING werkzeug  * Debugger is active!
+2024-03-02 00:27:03,996 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-02 01:20:47,900 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-02 01:20:47,901 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 01:20:47,904 INFO werkzeug  * Restarting with stat
+2024-03-02 01:20:49,408 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:20:49,409 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-02 01:23:42,752 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-02 01:23:42,753 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 01:23:42,755 INFO werkzeug  * Restarting with stat
+2024-03-02 01:23:44,184 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:23:44,185 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 01:48:52,568 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-02 01:48:52,569 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-02 01:48:52,571 INFO werkzeug  * Restarting with stat
+2024-03-02 01:48:54,004 WARNING werkzeug  * Debugger is active!
+2024-03-02 01:48:54,005 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-02 02:01:45,764 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:01:45] "GET / HTTP/1.1" 200 -
+2024-03-02 02:01:53,546 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:01:53] "GET / HTTP/1.1" 200 -
+2024-03-02 02:01:53,683 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:01:53] "GET / HTTP/1.1" 200 -
+2024-03-02 02:01:55,599 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:01:55] "GET / HTTP/1.1" 200 -
+2024-03-02 02:06:57,677 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:06:57] "GET / HTTP/1.1" 200 -
+2024-03-02 02:08:09,147 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:08:09] "GET / HTTP/1.1" 200 -
+2024-03-02 02:08:14,685 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:08:14] "GET / HTTP/1.1" 200 -
+2024-03-02 02:08:17,445 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:08:17] "GET / HTTP/1.1" 200 -
+2024-03-02 02:08:21,956 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:08:21] "GET / HTTP/1.1" 200 -
+2024-03-02 02:13:33,420 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:13:33] "GET / HTTP/1.1" 200 -
+2024-03-02 02:19:46,802 INFO werkzeug 192.168.1.21 - - [02/Mar/2024 02:19:46] "GET / HTTP/1.1" 200 -
+2024-03-14 23:43:03,992 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-14 23:43:03,993 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-14 23:43:03,996 INFO werkzeug  * Restarting with stat
+2024-03-14 23:43:05,419 WARNING werkzeug  * Debugger is active!
+2024-03-14 23:43:05,420 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 00:41:57,199 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 00:41:57,201 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 00:41:57,204 INFO werkzeug  * Restarting with stat
+2024-03-16 00:41:58,657 WARNING werkzeug  * Debugger is active!
+2024-03-16 00:41:58,658 INFO werkzeug  * Debugger PIN: 164-890-478
+2024-03-16 00:43:58,722 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:43:58] "POST /start HTTP/1.1" 200 -
+2024-03-16 00:46:14,996 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:46:14] "POST /start HTTP/1.1" 200 -
+2024-03-16 00:48:13,382 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:48:13] "GET /pic HTTP/1.1" 200 -
+2024-03-16 00:53:31,971 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:53:31] "GET /pic HTTP/1.1" 200 -
+2024-03-16 00:53:41,528 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:53:41] "POST /start HTTP/1.1" 200 -
+2024-03-16 00:54:52,898 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:54:52] "GET /pic HTTP/1.1" 200 -
+2024-03-16 00:55:00,730 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:55:00] "POST /start HTTP/1.1" 200 -
+2024-03-16 00:57:00,481 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 00:57:00] "POST /start HTTP/1.1" 200 -
+2024-03-16 01:08:23,265 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 01:08:23,266 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:08:23,269 INFO werkzeug  * Restarting with stat
+2024-03-16 01:08:24,730 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:08:24,731 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 01:08:28,727 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:08:28] "POST /start HTTP/1.1" 200 -
+2024-03-16 01:10:52,926 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:10:52] "POST /stop HTTP/1.1" 200 -
+2024-03-16 01:10:58,630 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:10:58] "POST /start HTTP/1.1" 200 -
+2024-03-16 01:11:40,655 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:11:40] "POST /stop HTTP/1.1" 200 -
+2024-03-16 01:18:21,581 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 01:18:21,582 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:18:21,585 INFO werkzeug  * Restarting with stat
+2024-03-16 01:18:23,032 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:18:23,094 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:21:14,877 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:21:14] "POST /start HTTP/1.1" 200 -
+2024-03-16 01:22:03,530 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:22:03] "GET /pic HTTP/1.1" 200 -
+2024-03-16 01:22:03,949 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:22:03] "GET /pic HTTP/1.1" 200 -
+2024-03-16 01:23:29,842 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:23:29] "POST /stop HTTP/1.1" 200 -
+2024-03-16 01:28:09,768 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 01:28:09] "POST /start HTTP/1.1" 200 -
+2024-03-16 01:44:39,454 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 01:44:39,455 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:44:39,458 INFO werkzeug  * Restarting with stat
+2024-03-16 01:44:40,891 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:44:40,892 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-16 01:58:17,036 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 01:58:17,038 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 01:58:17,040 INFO werkzeug  * Restarting with stat
+2024-03-16 01:58:18,467 WARNING werkzeug  * Debugger is active!
+2024-03-16 01:58:18,468 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-16 02:01:58,821 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 02:01:58,980 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 02:01:58,982 INFO werkzeug  * Restarting with stat
+2024-03-16 02:02:00,410 WARNING werkzeug  * Debugger is active!
+2024-03-16 02:02:00,411 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-16 02:04:04,022 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:04:04] "GET /pic HTTP/1.1" 200 -
+2024-03-16 02:04:18,187 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:04:18] "POST /start HTTP/1.1" 200 -
+2024-03-16 02:06:05,422 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:06:05] "GET /pic HTTP/1.1" 200 -
+2024-03-16 02:08:49,641 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:08:49] "GET /pic HTTP/1.1" 200 -
+2024-03-16 02:09:07,533 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 02:09:07] "GET /pic HTTP/1.1" 200 -
+2024-03-16 08:07:02,254 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 08:07:02] "POST /stop HTTP/1.1" 200 -
+2024-03-16 09:13:22,875 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:13:22] "GET /pic HTTP/1.1" 200 -
+2024-03-16 09:15:14,876 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:15:14] "POST /start HTTP/1.1" 200 -
+2024-03-16 09:15:56,636 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:15:56] "GET /pic HTTP/1.1" 200 -
+2024-03-16 09:17:05,247 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:17:05] "POST /stop HTTP/1.1" 200 -
+2024-03-16 09:21:38,200 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:21:38] "POST /start HTTP/1.1" 200 -
+2024-03-16 09:22:02,789 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:22:02] "POST /stop HTTP/1.1" 200 -
+2024-03-16 09:34:15,008 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:34:15] "POST /start HTTP/1.1" 200 -
+2024-03-16 09:43:22,184 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:22] "GET /pic HTTP/1.1" 200 -
+2024-03-16 09:43:30,886 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 09:43:30] "POST /stop HTTP/1.1" 200 -
+2024-03-16 10:07:42,165 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:07:42] "GET /pic HTTP/1.1" 200 -
+2024-03-16 10:19:13,126 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:19:13] "POST /start HTTP/1.1" 200 -
+2024-03-16 10:27:05,152 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:27:05] "GET /pic HTTP/1.1" 200 -
+2024-03-16 10:27:10,777 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:27:10] "GET /pic HTTP/1.1" 200 -
+2024-03-16 10:33:48,576 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 10:33:48,577 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 10:33:48,580 INFO werkzeug  * Restarting with stat
+2024-03-16 10:33:50,008 WARNING werkzeug  * Debugger is active!
+2024-03-16 10:33:50,009 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-16 10:34:25,152 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:34:25] "GET /pic HTTP/1.1" 200 -
+2024-03-16 10:34:30,505 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:34:30] "POST /start HTTP/1.1" 200 -
+2024-03-16 10:38:55,410 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-16 10:38:55,412 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-16 10:38:55,415 INFO werkzeug  * Restarting with stat
+2024-03-16 10:38:56,854 WARNING werkzeug  * Debugger is active!
+2024-03-16 10:38:56,855 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-16 10:39:02,372 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 10:39:02] "POST /start HTTP/1.1" 200 -
+2024-03-16 11:29:26,443 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 11:29:26] "GET /pic HTTP/1.1" 200 -
+2024-03-16 12:09:31,826 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 12:09:31] "GET /pic HTTP/1.1" 200 -
+2024-03-16 18:48:58,467 INFO werkzeug 127.0.0.1 - - [16/Mar/2024 18:48:58] "GET /pic HTTP/1.1" 200 -
+2024-03-17 13:17:44,519 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 13:17:44] "GET /pic HTTP/1.1" 200 -
+2024-03-17 21:35:14,396 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 21:35:14] "POST /stop HTTP/1.1" 200 -
+2024-03-17 23:22:59,333 INFO werkzeug 127.0.0.1 - - [17/Mar/2024 23:22:59] "GET /pic HTTP/1.1" 200 -
+2024-03-18 10:10:32,711 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 10:10:32] "POST /start HTTP/1.1" 200 -
+2024-03-18 10:10:45,332 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 10:10:45] "GET /pic HTTP/1.1" 200 -
+2024-03-18 13:24:15,253 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 13:24:15] "POST /stop HTTP/1.1" 200 -
+2024-03-18 22:33:19,472 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 22:33:19] "POST /stop HTTP/1.1" 200 -
+2024-03-18 22:37:55,925 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 22:37:55] "POST /stop HTTP/1.1" 200 -
+2024-03-18 22:41:49,790 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 22:41:49] "POST /stop HTTP/1.1" 200 -
+2024-03-18 22:44:12,140 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 22:44:12] "POST /tresh HTTP/1.1" 200 -
+2024-03-18 22:45:57,803 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Camera/WsCam.py', reloading
+2024-03-18 22:45:58,084 INFO werkzeug  * Restarting with stat
+2024-03-18 22:45:59,487 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:45:59,488 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-18 22:46:18,610 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 22:46:18] "POST /tresh HTTP/1.1" 200 -
+2024-03-18 22:46:27,655 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 22:46:27] "POST /tresh HTTP/1.1" 200 -
+2024-03-18 22:55:24,457 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 22:55:24,458 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 22:55:24,461 INFO werkzeug  * Restarting with stat
+2024-03-18 22:55:25,939 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:55:25,940 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 22:58:14,092 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 22:58:14,093 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 22:58:14,096 INFO werkzeug  * Restarting with stat
+2024-03-18 22:58:15,571 WARNING werkzeug  * Debugger is active!
+2024-03-18 22:58:15,572 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:05:50,944 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:05:50,946 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:05:50,949 INFO werkzeug  * Restarting with stat
+2024-03-18 23:05:52,356 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:05:52,357 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:30:35,981 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:30:35,981 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:30:35,985 INFO werkzeug  * Restarting with stat
+2024-03-18 23:30:37,492 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:30:37,493 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:33:52,892 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:33:52,893 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:33:52,895 INFO werkzeug  * Restarting with stat
+2024-03-18 23:33:54,403 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:33:54,403 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:40:22,899 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:40:22,900 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:40:22,903 INFO werkzeug  * Restarting with stat
+2024-03-18 23:40:24,446 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:40:24,447 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:41:16,478 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:41:16,478 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:41:16,481 INFO werkzeug  * Restarting with stat
+2024-03-18 23:41:18,018 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:41:18,019 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:44:19,832 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:44:19,832 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:44:19,836 INFO werkzeug  * Restarting with stat
+2024-03-18 23:44:21,319 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:44:21,320 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:46:52,641 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:46:52,641 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:46:52,644 INFO werkzeug  * Restarting with stat
+2024-03-18 23:46:54,205 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:46:54,206 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:47:03,264 INFO werkzeug 127.0.0.1 - - [18/Mar/2024 23:47:03] "GET /pic HTTP/1.1" 200 -
+2024-03-18 23:47:56,262 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:47:56,262 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:47:56,266 INFO werkzeug  * Restarting with stat
+2024-03-18 23:47:57,797 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:47:57,798 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:48:13,662 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:48:13,663 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:48:13,667 INFO werkzeug  * Restarting with stat
+2024-03-18 23:48:15,181 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:48:15,182 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:49:03,207 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:49:03,207 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:49:03,210 INFO werkzeug  * Restarting with stat
+2024-03-18 23:49:04,727 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:49:04,728 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:49:37,850 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:49:37,851 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:49:37,854 INFO werkzeug  * Restarting with stat
+2024-03-18 23:49:39,374 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:49:39,375 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-18 23:54:41,341 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-18 23:54:41,341 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-18 23:54:41,345 INFO werkzeug  * Restarting with stat
+2024-03-18 23:54:42,894 WARNING werkzeug  * Debugger is active!
+2024-03-18 23:54:42,895 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:02:53,174 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:02:53,174 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:02:53,177 INFO werkzeug  * Restarting with stat
+2024-03-19 00:02:54,622 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:02:54,623 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:03:57,003 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:03:57,003 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:03:57,007 INFO werkzeug  * Restarting with stat
+2024-03-19 00:03:58,542 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:03:58,543 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:05:54,799 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:05:54,799 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:05:54,802 INFO werkzeug  * Restarting with stat
+2024-03-19 00:05:56,276 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:05:56,277 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:08:23,557 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:08:23,557 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:08:23,561 INFO werkzeug  * Restarting with stat
+2024-03-19 00:08:25,092 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:08:25,093 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:10:15,202 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:10:15,203 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:10:15,206 INFO werkzeug  * Restarting with stat
+2024-03-19 00:10:16,692 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:10:16,693 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:12:02,887 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:12:02,888 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:12:02,891 INFO werkzeug  * Restarting with stat
+2024-03-19 00:12:04,462 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:12:04,463 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:12:38,226 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:12:38] "GET /pic HTTP/1.1" 200 -
+2024-03-19 00:15:50,193 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:15:50,193 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:15:50,196 INFO werkzeug  * Restarting with stat
+2024-03-19 00:15:51,753 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:15:51,754 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:20:30,470 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:20:30,472 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:20:30,475 INFO werkzeug  * Restarting with stat
+2024-03-19 00:20:31,895 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:20:31,896 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-19 00:22:29,228 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:22:29,229 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:22:29,231 INFO werkzeug  * Restarting with stat
+2024-03-19 00:22:30,685 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:22:30,686 INFO werkzeug  * Debugger PIN: 974-916-177
+2024-03-19 00:25:19,128 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:25:19,129 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:25:19,133 INFO werkzeug  * Restarting with stat
+2024-03-19 00:25:20,775 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:25:20,775 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-19 00:30:16,489 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-19 00:30:16,489 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-19 00:30:16,493 INFO werkzeug  * Restarting with stat
+2024-03-19 00:30:17,987 WARNING werkzeug  * Debugger is active!
+2024-03-19 00:30:17,988 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-19 00:31:12,214 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:31:12] "GET /pic HTTP/1.1" 200 -
+2024-03-19 00:37:19,192 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:37:19] "GET /pic HTTP/1.1" 200 -
+2024-03-19 00:38:01,497 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 00:38:01] "POST /start HTTP/1.1" 200 -
+2024-03-19 08:16:53,864 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:16:53] "POST /stop HTTP/1.1" 200 -
+2024-03-19 08:20:24,962 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:20:24] "POST /tresh HTTP/1.1" 200 -
+2024-03-19 08:20:40,687 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:20:40] "POST /tresh HTTP/1.1" 200 -
+2024-03-19 08:20:47,393 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:20:47] "POST /start HTTP/1.1" 200 -
+2024-03-19 08:20:56,394 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 08:20:56] "POST /stop HTTP/1.1" 200 -
+2024-03-19 18:54:57,549 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 18:54:57] "GET /pic HTTP/1.1" 200 -
+2024-03-19 18:55:38,418 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 18:55:38] "GET /pic HTTP/1.1" 200 -
+2024-03-19 19:02:45,528 INFO werkzeug  * Detected change in '/home/pi/spycam/spycam2.0/Camera/CameraModule.py', reloading
+2024-03-19 19:02:45,795 INFO werkzeug  * Restarting with stat
+2024-03-19 19:02:47,208 WARNING werkzeug  * Debugger is active!
+2024-03-19 19:02:47,209 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-19 21:09:57,411 INFO werkzeug 127.0.0.1 - - [19/Mar/2024 21:09:57] "GET /pic HTTP/1.1" 200 -
+2024-03-20 10:35:32,037 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 10:35:32] "POST /start HTTP/1.1" 200 -
+2024-03-20 15:56:06,437 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 15:56:06] "POST /tresh HTTP/1.1" 200 -
+2024-03-20 20:48:32,766 INFO werkzeug 127.0.0.1 - - [20/Mar/2024 20:48:32] "POST /stop HTTP/1.1" 200 -
+2024-03-21 12:45:07,029 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 12:45:07] "POST /start HTTP/1.1" 200 -
+2024-03-21 12:45:19,273 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 12:45:19] "GET /pic HTTP/1.1" 200 -
+2024-03-21 19:02:41,544 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:02:41] "POST /stop HTTP/1.1" 200 -
+2024-03-21 19:03:22,150 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:03:22] "GET /pic HTTP/1.1" 200 -
+2024-03-21 19:04:12,249 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:04:12] "POST /start HTTP/1.1" 200 -
+2024-03-21 19:04:23,238 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 19:04:23] "POST /stop HTTP/1.1" 200 -
+2024-03-21 22:20:22,142 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 22:20:22] "POST /start HTTP/1.1" 200 -
+2024-03-21 22:20:27,567 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 22:20:27] "POST /stop HTTP/1.1" 200 -
+2024-03-21 23:16:31,272 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 23:16:31] "POST /start HTTP/1.1" 200 -
+2024-03-21 23:26:17,352 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 23:26:17] "GET /pic HTTP/1.1" 200 -
+2024-03-21 23:33:57,809 INFO werkzeug 127.0.0.1 - - [21/Mar/2024 23:33:57] "GET /pic HTTP/1.1" 200 -
+2024-03-22 08:02:05,566 INFO werkzeug 127.0.0.1 - - [22/Mar/2024 08:02:05] "POST /stop HTTP/1.1" 200 -
+2024-03-23 23:55:54,363 INFO werkzeug 127.0.0.1 - - [23/Mar/2024 23:55:54] "GET /pic HTTP/1.1" 200 -
+2024-03-24 17:20:22,911 INFO werkzeug 127.0.0.1 - - [24/Mar/2024 17:20:22] "GET /pic HTTP/1.1" 200 -
+2024-03-24 17:20:42,161 INFO werkzeug 127.0.0.1 - - [24/Mar/2024 17:20:42] "GET /pic HTTP/1.1" 200 -
+2024-03-24 21:00:28,857 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-24 21:00:28,861 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-24 21:00:28,869 INFO werkzeug  * Restarting with stat
+2024-03-24 21:00:32,392 WARNING werkzeug  * Debugger is active!
+2024-03-24 21:00:32,394 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-03-25 13:13:07,991 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-25 13:13:07,991 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 13:13:07,994 INFO werkzeug  * Restarting with stat
+2024-03-25 13:13:09,524 WARNING werkzeug  * Debugger is active!
+2024-03-25 13:13:09,525 INFO werkzeug  * Debugger PIN: 120-628-079
+2024-03-25 13:55:55,869 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-25 13:55:55,870 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 13:55:55,873 INFO werkzeug  * Restarting with stat
+2024-03-25 13:55:57,282 WARNING werkzeug  * Debugger is active!
+2024-03-25 13:55:57,283 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-25 13:56:25,107 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:25] "GET /pic HTTP/1.1" 200 -
+2024-03-25 13:56:33,614 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:56:33] "POST /start HTTP/1.1" 200 -
+2024-03-25 13:57:21,928 INFO werkzeug 127.0.0.1 - - [25/Mar/2024 13:57:21] "POST /stop HTTP/1.1" 200 -
+2024-03-25 19:44:47,041 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-25 19:44:47,043 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 19:44:47,046 INFO werkzeug  * Restarting with stat
+2024-03-25 19:44:48,451 WARNING werkzeug  * Debugger is active!
+2024-03-25 19:44:48,452 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-25 22:13:22,119 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-03-25 22:13:22,121 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-03-25 22:13:22,124 INFO werkzeug  * Restarting with stat
+2024-03-25 22:13:24,643 WARNING werkzeug  * Debugger is active!
+2024-03-25 22:13:24,644 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-03-26 14:27:12,577 INFO werkzeug 127.0.0.1 - - [26/Mar/2024 14:27:12] "GET /pic HTTP/1.1" 200 -
+2024-03-26 14:28:22,600 INFO werkzeug 127.0.0.1 - - [26/Mar/2024 14:28:22] "GET /pic HTTP/1.1" 200 -
+2024-03-27 19:04:19,621 INFO werkzeug 127.0.0.1 - - [27/Mar/2024 19:04:19] "POST /start HTTP/1.1" 200 -
+2024-03-27 19:04:24,679 INFO werkzeug 127.0.0.1 - - [27/Mar/2024 19:04:24] "GET /pic HTTP/1.1" 200 -
+2024-03-28 00:21:07,442 INFO werkzeug 127.0.0.1 - - [28/Mar/2024 00:21:07] "POST /stop HTTP/1.1" 200 -
+2024-03-29 23:41:38,922 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:41:38] "GET /pic HTTP/1.1" 200 -
+2024-03-29 23:42:06,907 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:42:06] "GET /pic HTTP/1.1" 200 -
+2024-03-29 23:42:17,698 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:42:17] "POST /start HTTP/1.1" 200 -
+2024-03-29 23:43:10,758 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:43:10] "POST /tresh HTTP/1.1" 200 -
+2024-03-29 23:43:16,949 INFO werkzeug 127.0.0.1 - - [29/Mar/2024 23:43:16] "POST /stop HTTP/1.1" 200 -
+2024-03-30 11:07:37,229 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 11:07:37] "POST /start HTTP/1.1" 200 -
+2024-03-30 11:08:12,156 INFO werkzeug 127.0.0.1 - - [30/Mar/2024 11:08:12] "GET /pic HTTP/1.1" 200 -
+2024-03-31 10:05:38,120 INFO werkzeug 127.0.0.1 - - [31/Mar/2024 10:05:38] "GET /pic HTTP/1.1" 200 -
+2024-04-01 10:32:06,024 INFO werkzeug 127.0.0.1 - - [01/Apr/2024 10:32:06] "GET /pic HTTP/1.1" 200 -
+2024-04-01 18:40:11,184 INFO werkzeug 127.0.0.1 - - [01/Apr/2024 18:40:11] "POST /stop HTTP/1.1" 200 -
+2024-04-04 16:23:56,212 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 16:23:56] "POST /start HTTP/1.1" 200 -
+2024-04-04 16:24:02,875 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 16:24:02] "GET /pic HTTP/1.1" 200 -
+2024-04-04 20:36:02,358 INFO werkzeug 127.0.0.1 - - [04/Apr/2024 20:36:02] "POST /stop HTTP/1.1" 200 -
+2024-04-07 18:52:42,214 INFO werkzeug 127.0.0.1 - - [07/Apr/2024 18:52:42] "GET /pic HTTP/1.1" 200 -
+2024-04-07 21:05:16,642 INFO werkzeug 127.0.0.1 - - [07/Apr/2024 21:05:16] "GET /pic HTTP/1.1" 200 -
+2024-04-09 22:01:46,669 INFO werkzeug 127.0.0.1 - - [09/Apr/2024 22:01:46] "GET /pic HTTP/1.1" 200 -
+2024-04-09 22:02:02,110 INFO werkzeug 127.0.0.1 - - [09/Apr/2024 22:02:02] "GET /pic HTTP/1.1" 200 -
+2024-04-10 20:47:57,199 INFO werkzeug 127.0.0.1 - - [10/Apr/2024 20:47:57] "GET /pic HTTP/1.1" 200 -
+2024-04-11 13:14:18,733 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 13:14:18] "GET /pic HTTP/1.1" 200 -
+2024-04-11 23:44:02,370 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.29:5004
+2024-04-11 23:44:02,372 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-11 23:44:02,375 INFO werkzeug  * Restarting with stat
+2024-04-11 23:44:03,787 WARNING werkzeug  * Debugger is active!
+2024-04-11 23:44:03,787 INFO werkzeug  * Debugger PIN: 822-171-296
+2024-04-11 23:44:29,685 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:44:29] "POST /start HTTP/1.1" 200 -
+2024-04-11 23:45:45,223 INFO werkzeug 127.0.0.1 - - [11/Apr/2024 23:45:45] "POST /start HTTP/1.1" 200 -
+2024-04-12 00:06:03,138 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:06:03] "POST /start HTTP/1.1" 200 -
+2024-04-12 00:06:08,339 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:06:08] "POST /stop HTTP/1.1" 200 -
+2024-04-12 00:13:57,551 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 00:13:57] "POST /start HTTP/1.1" 200 -
+2024-04-12 08:03:56,434 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:03:56] "POST /stop HTTP/1.1" 200 -
+2024-04-12 08:17:12,756 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:17:12] "POST /start HTTP/1.1" 200 -
+2024-04-12 08:17:17,296 INFO werkzeug 127.0.0.1 - - [12/Apr/2024 08:17:17] "POST /stop HTTP/1.1" 200 -
+2024-04-13 21:50:20,347 INFO werkzeug 127.0.0.1 - - [13/Apr/2024 21:50:20] "GET /pic HTTP/1.1" 200 -
+2024-04-14 21:08:01,244 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.17:5004
+2024-04-14 21:08:01,246 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-14 21:08:01,249 INFO werkzeug  * Restarting with stat
+2024-04-14 21:08:02,969 WARNING werkzeug  * Debugger is active!
+2024-04-14 21:08:02,971 INFO werkzeug  * Debugger PIN: 105-867-221
+2024-04-14 21:09:26,543 INFO werkzeug 127.0.0.1 - - [14/Apr/2024 21:09:26] "GET /pic HTTP/1.1" 200 -
+2024-04-15 20:36:47,416 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 20:36:47] "GET /pic HTTP/1.1" 200 -
