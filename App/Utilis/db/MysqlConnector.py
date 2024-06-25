@@ -61,23 +61,3 @@ class MysqlConnector(object):
 				cursor.close()
 				self._connection.close()
 		return result
-
-	def update(self,text):
-		result = None
-		try:
-			self._connect()
-			if self._connection.is_connected():
-				db_Info = self._connection.get_server_info()
-				cursor = self._connection.cursor()
-				cursor.execute(text)
-				self._connection.commit()
-				record = cursor.fetchall()
-				result = record
-
-		except Error as e:
-			self._logger.error(e)
-		finally:
-			if self._connection.is_connected():
-				cursor.close()
-				self._connection.close()
-		return result

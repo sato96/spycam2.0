@@ -66,6 +66,7 @@ class Communications(object):
 		responses = ''
 		uri = '/broadcastVideo'
 		uriAlert = '/broadcastMsg'
+		#controllo se è null
 		file = request.files['media']
 		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "';"
 		servizi = connector.query(txt)
@@ -79,9 +80,10 @@ class Communications(object):
 				label = connector.query(txt)
 				dictLabel = {row['code']:row['description'] for row in label}
 				usr = [u['chat_id'] for u in users]
-				myobj = {'users': usr}
-				files = {'media':file, 'data': json.dumps(myobj)}
-				r = requests.post(url, files=files)
+				if file is not None:
+					myobj = {'users': usr}
+					files = {'media':file, 'data': json.dumps(myobj)}
+					r = requests.post(url, files=files)
 				myobj = {'text': dictLabel['alert'], 'users': usr}
 				r = requests.post(urlAlert, json = myobj)
 				stato = ResponseFactory.generateAnswer(ws, r.status_code,connector, s['id'])

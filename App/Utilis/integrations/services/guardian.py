@@ -16,7 +16,7 @@ class Monitoring(object):
 		dati = json.loads(body.decode('utf-8'))
 		testo = dati['text']
 		chat = dati['sender']
-		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "' and ss.code like '%"+ str(serv) + "%';"
+		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "' and wm.FL_DELETED = 0 and ss.FL_deleted = 0 and ss.code like '%"+ str(serv) + "%';"
 		servizi = connector.query(txt)
 		for s in servizi:
 			url = s['url'] + uri
@@ -46,7 +46,7 @@ class Monitoring(object):
 		dati = json.loads(body.decode('utf-8'))
 		testo = dati['text']
 		chat = dati['sender']
-		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "' and ss.code like '%"+ str(serv) + "%';"
+		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "' and wm.FL_DELETED = 0 and ss.FL_deleted = 0 and ss.code like '%"+ str(serv) + "%';"
 		servizi = connector.query(txt)
 		for s in servizi:
 			url = s['url'] + uri
@@ -76,7 +76,7 @@ class Monitoring(object):
 		chat = dati['sender']
 		#controllo sul chat id se verificato
 		commands = testo.split()
-		th = int(commands[1])
+		th = float(commands[1])
 		uri = '/tresh'
 		#eventualmente gestire il servizio
 		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where  wm.fl_deleted = 0 and wm.code ='" + ws + "' and ss.code like '%"+ str(serv) + "%';" 
@@ -113,7 +113,7 @@ class MultimediaAlert(object):
 		dati = json.loads(body.decode('utf-8'))
 		testo = dati['text']
 		chat = dati['sender']
-		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "' and ss.code like '%"+ str(serv) + "%';"
+		txt = "SELECT ss.description as service, ss.code as code, ssa2.code as type, pp.value as url, ss.id FROM ser_services ss Join ser_service_areas ssa2 on ss.id_area = ssa2.id join par_parameters pp on ss.id_url = pp.id JOIN ws_microservices wm on ss.id = wm.id_service where wm.code ='" + ws + "' and wm.FL_DELETED = 0 and ss.FL_deleted = 0  and ss.code like '%"+ str(serv) + "%';"
 		servizi = connector.query(txt)
 		for s in servizi:
 			url = s['url'] + uri
