@@ -150,28 +150,33 @@ class MotorStep(object):
                 return True
 
         def Rotation(self, degIn):
-                #occhio al no limiti
-                deg360 = degIn - (math.floor(degIn/360)*360) 
-                if deg360 > 180:
-                        path = deg360 - 360 
-                        pathsx = path
+                deg360 = degIn - (int(degIn / 360) * 360)
+                
+                if deg360 >= 0:
+                        pathsx = deg360 - 360
                         pathdx = deg360
                 else:
-                        path = deg360
-                        pathsx = deg360 - 360
-                        pathdx = path
-                #qui differenzio in base al limite
+                        pathsx = deg360
+                        pathdx = deg360 + 360
+                path = pathsx if abs(pathsx) < abs(pathdx) else pathdx
+                # qui differenzio in base al limite
                 if self._limitLeft != -360 and self._limitRight != 360:
-                        x1s = pathsx + self._zeroDeg
+                        #x1s e x1s sono le posizioni finali che presumo di raggiungere
+                        x1s = pathsx + self._zeroDeg 
                         x1d = pathdx + self._zeroDeg
-                        dsx = abs(self._limitLeft) - abs(x1s)
-                        ddx = abs(self._limitRight) - abs(x1d)
-                        x1 = path ##punto presunto finale
+                        #dsx e ddx sono le distanze dai limiti che dovrei avere
+                        dsx = abs(self._limitLeft) - ((self._limitLeft*x1s/abs(self._limitLeft*x1s))*abs(x1s))
+                        ddx = abs(self._limitRight) - ((self._limitRight*x1d/abs(self._limitRight*x1d))*abs(x1d))
+                        x1 = path
+                        #se entrambe le distanze sono minori di zero significa che devo scegliere il limiti più vicino al desiderato
                         if dsx < 0 and ddx < 0:
                                 x1 = self._limitLeft if dsx > ddx else self._limitRight
+                        #è dimostrabile matematicamente che con un ingresso < 360 e con i limiti accettati dalla classe
+                        #questo elif è praticamente un else che sceglie sempre il percorso giusto
                         elif dsx >= 0 or ddx >= 0:
                                 x1 = x1s if dsx > ddx else x1d
                         path = x1 - self._zeroDeg
+                        
                 self._Steps(path)
                 self._zeroDeg = x1
                 zero360 = self._zeroDeg - (math.floor(self._zeroDeg/360)*360)
