@@ -1,5 +1,5 @@
 import logging
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup,Bot
 from telegram.ext import Application, CallbackQueryHandler,filters, ConversationHandler,MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
 import requests
 import json
@@ -17,6 +17,14 @@ logging.basicConfig(filename='tmp/botTelegram.log',
 )
 logger=logging.getLogger(__name__)
 
+async def sendMessage(txt, chat, reply_markup = None):
+    #rendere configurabile il token
+    bot = Bot(token)
+    async with bot:
+        if reply_markup == None:
+            await bot.send_message(text=txt, chat_id=chat)
+        else:
+            await bot.send_message(text=txt, chat_id=chat, reply_markup = reply_markup)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 	user = update.effective_user.name 
@@ -60,6 +68,10 @@ async def services(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 	for s in data:
 		call = '/microservizi?serv=' + s['code']
 		keyboard.append([InlineKeyboardButton(s['service'], callback_data=call)])
+	with open('Labels.json') as f:
+		j = json.load(f)
+		end = j["end"]
+	keyboard.append([InlineKeyboardButton(end, callback_data='/microservizi?/end')])
 	reply_markup = InlineKeyboardMarkup(keyboard)
 	await update.message.reply_text(resp, reply_markup=reply_markup)
 	return MICROSERVICES
@@ -68,37 +80,23 @@ async def services(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 async def ms(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 	query = update.callback_query
 	await query.answer()
+	if query.data.split('?')[1] == '/end':
+		closeText = ''
+		with open('Labels.json') as f:
+			j = json.load(f)
+			closeText = j["close"]
+		await query.edit_message_text(text= closeText)
+		return ConversationHandler.END
 	log, bearer = login(update.effective_user.name, update.effective_chat.id, base_url)
 	if bearer != 'ko':
-		# sarebbe meglio non mandare un'altra request ma vabe
-		user_says = query.data
-		url = base_url + user_says
-		headers = {'Content-Type': 'application/json', 'Authorization': 'Bearer {}'.format(bearer)}
-		r = requests.get(url, headers=headers)
-		if r.status_code == 200:
-			resp = str(json.loads(r.text)['response'])
-		else:
-			resp = str(json.loads(r.text)['response'])
+		uri = '/microservizi?' + query.data.split(' ')[0].split('?')[1]
+		resp, reply_markup = com.microS(query.data, bearer,base_url)
+		#await sendMessage(resp,update.effective_chat.id, reply_markup=reply_markup )
+		await query.edit_message_text(text=resp, reply_markup=reply_markup)
+		return FUNCTIONS
 	else:
-		resp = log
-	keyboard = []
-	d = json.loads(r.text)['data']
-	with open('Labels.json') as f:
-		j = json.load(f)
-		back = j["back"]
-	r = len(d) % 2
-	for s in range(0, len(d) - r, 2):
-		call0 = d[s]['code'] + '?' + query.data.split('?')[1]
-		call1 = d[s+1]['code'] + '?' + query.data.split('?')[1]
-		keyboard.append([InlineKeyboardButton(d[s]['microservice'], callback_data=call0),
-						 InlineKeyboardButton(d[s + 1]['microservice'], callback_data=call1)])
-	if r == 1:
-		call = d[len(d) - 1]['code'] + '?' + query.data.split('?')[1]
-		keyboard.append([InlineKeyboardButton(d[len(d) - 1]['microservice'], callback_data=call)])
-	keyboard.append([InlineKeyboardButton(back, callback_data='/back')])
-	reply_markup = InlineKeyboardMarkup(keyboard)
-	await query.edit_message_text(text=resp, reply_markup=reply_markup)
-	return FUNCTIONS
+		await query.edit_message_text(log)
+		return ConversationHandler.END
 
 async def funz(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 	query = update.callback_query
@@ -110,9 +108,20 @@ async def funz(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 		for s in data:
 			call = '/microservizi?serv=' + s['code']
 			keyboard.append([InlineKeyboardButton(s['service'], callback_data=call)])
+		with open('Labels.json') as f:
+			j = json.load(f)
+			end = j["end"]
+		keyboard.append([InlineKeyboardButton(end, callback_data='/microservizi?/end')])
 		reply_markup = InlineKeyboardMarkup(keyboard)
 		await query.edit_message_text(text=resp, reply_markup = reply_markup)
 		return MICROSERVICES
+	elif query.data == '/end':
+		closeText = ''
+		with open('Labels.json') as f:
+			j = json.load(f)
+			closeText = j["close"]
+		await query.edit_message_text(text= closeText)
+		return ConversationHandler.END
 	else:
 		command = query.data.split('?')[0].split('/')[1]
 		if command in parz_c:
@@ -123,38 +132,49 @@ async def funz(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 				infoFromUser = j["infoFromUser"][command]
 			await query.edit_message_text(text=infoFromUser)
 			return PARZIAL
-		elif command in full_c:
-			resp = com.fullCommand(update.effective_user.name, update.effective_chat.id, query.data, base_url)
-			await query.edit_message_text(text=resp)
-			return ConversationHandler.END
-		elif command in get_c:
-			resp = com.getCommand(update.effective_user.name, update.effective_chat.id, query.data, base_url)
-			await query.edit_message_text(text=resp)
-			return ConversationHandler.END
-		elif command in del_c:
-			resp = com.deleteCommand(update.effective_user.name, update.effective_chat.id, query.data, base_url)
-			await query.edit_message_text(text=resp)
-			return ConversationHandler.END
 		else:
-			messageError = 'ko'
-			with open('Labels.json') as f:
-				infoFromUser = json.load(f)["commandNotFound"]
-			error = messageError.replace('$data', query.data)
-			await query.edit_message_text(text=error)
-			return ConversationHandler.END
+			if command in full_c:
+				resp = com.fullCommand(update.effective_user.name, update.effective_chat.id, query.data, base_url)
+				await query.edit_message_text(text=resp)
+			elif command in get_c:
+				resp = com.getCommand(update.effective_user.name, update.effective_chat.id, query.data, base_url)
+				await query.edit_message_text(text=resp)
+			elif command in del_c:
+				resp = com.deleteCommand(update.effective_user.name, update.effective_chat.id, query.data, base_url)
+				await query.edit_message_text(text=resp)
+			else:
+				messageError = 'ko'
+				with open('Labels.json') as f:
+					infoFromUser = json.load(f)["commandNotFound"]
+				error = messageError.replace('$data', query.data)
+				await query.edit_message_text(text=error)
+			
+			log, bearer = login(update.effective_user.name, update.effective_chat.id, base_url)
+			if bearer != 'ko':
+				uri = '/microservizi?' + query.data.split(' ')[0].split('?')[1]
+				resp, reply_markup = com.microS(uri, bearer,base_url)
+				await sendMessage(resp,update.effective_chat.id, reply_markup=reply_markup )
+				#await query.edit_message_text(text=resp, reply_markup=reply_markup)
+				return FUNCTIONS
+			else:
+				await sendMessage(log, update.effective_chat.id)
+				return ConversationHandler.END
 
 async def parziale(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 	"""Stores the info about the user and ends the conversation."""
 	text = context.user_data["command"] + ' ' + update.message.text
 	resp = com.fullCommand(update.effective_user.name, update.effective_chat.id, text, base_url)
 	await update.message.reply_text(resp)
-	return ConversationHandler.END
 
-
-
-
-
-
+	log, bearer = login(update.effective_user.name, update.effective_chat.id, base_url)
+	if bearer != 'ko':
+		uri = '/microservizi?' + context.user_data["command"].split(' ')[0].split('?')[1]
+		resp, reply_markup = com.microS(uri, bearer,base_url)
+		await sendMessage(resp,update.effective_chat.id, reply_markup=reply_markup )
+		return FUNCTIONS
+	else:
+		await sendMessage(log, update.effective_chat.id)
+		return ConversationHandler.END
 
 
 
