@@ -1,6 +1,6 @@
 {
 	"url": "http://localhost:5001",
-	"token":"1747072933:AAH1jSXnFNSFMdCLZy-Fpktm7qb2hYbPE-I",
+	"token":"",
 	"full":["setzero", "vaiazero", "start", "stop", "foto"],
 	"parz":["ruota","impostalimite","soglia","setlimiti", "setlimitesx", "setlimitedx", "comunicazioni"],
 	"get": ["gradi", "getlimiti", "admin","parametrisistema"],
